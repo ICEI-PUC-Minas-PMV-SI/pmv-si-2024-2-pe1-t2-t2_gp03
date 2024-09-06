@@ -1,9 +1,9 @@
-﻿<div style="text-align: center;">
+<div style="text-align: center;">
  
 <br> <br> <br>
 
-**PONTIFÍCIA UNIVERSIDADE CATÓLICA DE MINAS GERAIS Puc Minas Virtual**
-![](img/pucLogo.png)
+**PONTIFÍCIA UNIVERSIDADE CATÓLICA DE MINAS GERAIS |Puc Minas Virtual|**
+
 
 <br><br><br><br>
 **Projeto Aplicação Web: 
@@ -24,20 +24,31 @@ Belo Horizonte 2024
 **SUMÁRIO**
 
 1. **INTRODUÇÃO**
-   1.1. Contexto
+
+   1.1. Contexto 
+
    1.2. Problema
+
    1.3. Justificativa
+
    1.4. Público-Alvo
 
 2. **OBJETIVOS**
+
    2.1. Objetivo Geral
+
    2.2. Objetivos Específicos
 
 3. **ESPECIFICAÇÕES DO PROJETO**
+
    3.1. Personas
+
    3.2. Histórias de Usuários 
+
    3.3. Requisitos Funcionais
+
    3.4. Requisitos Não-Funcionais
+
    3.5. Restrições
 
 4. REFERÊNCIAS
@@ -110,8 +121,8 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 
 2.2 **Objetivos Específicos** 
 - Permitir que o usuário preencha seu perfil, incluindo informações sobre gênero, idade, peso, altura e Fator de Atividade Física (FAT), a fim de ajustar o cálculo das necessidades calóricas totais. 
-- Calcular** o Índice de Massa Corporal (IMC) dos usuários e fornecer a classificação de IMC correspondente, ajudando na compreensão do estado nutricional. 
-- Calcular a Taxa Metabólica Basal **(**TMB), estimando a quantidade de calorias que 
+- Calcular o Índice de Massa Corporal (IMC) dos usuários e fornecer a classificação de IMC correspondente, ajudando na compreensão do estado nutricional. 
+- Calcular a Taxa Metabólica Basal (TMB), estimando a quantidade de calorias que 
 
   o corpo necessita para manter funções vitais em repouso. 
 
