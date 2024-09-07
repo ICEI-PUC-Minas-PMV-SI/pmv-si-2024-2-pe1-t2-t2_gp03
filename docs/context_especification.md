@@ -145,16 +145,16 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 
 **3  ESPECIFICAÇÕES DO PROJETO** 
 
-**3.1 Personas** 
+**3.1 Personas** <br>
 <div style="display: flex; align-items: flex-start;">
   
   <div style="flex-shrink: 0; margin-right: 20px;">
     <img src="img/persona1.png" alt="Rodrigo, 41 anos" style="width:150px;">
- </div>
+  </div>
 <div>
-   
-    <strong>Rodrigo, 41 anos</strong><br>
-    <strong><p>Perfil:</strong> Rodrigo é um gerente de vendas que passa a maior parte do dia sentado em frente ao computador. Com uma rotina agitada de trabalho e pouca atividade física, ele se encontra acima do peso. Apesar de sua condição de saúde, Rodrigo não teve grandes problemas médicos até agora, mas recentemente começou a se preocupar com seu bem-estar, especialmente depois que amigos comentaram sobre os riscos da obesidade. Ele não tem conhecimento aprofundado sobre nutrição e dietas, e, por conta disso, já tentou várias vezes iniciar dietas por conta própria, mas sem sucesso. A pressão e o estresse do trabalho muitas vezes o levam a comer por impulso.</p>
+ 
+<strong>Rodrigo, 41 anos</strong><br>
+<strong><p>Perfil:</strong> Rodrigo é um gerente de vendas que passa a maior parte do dia sentado em frente ao computador. Com uma rotina agitada de trabalho e pouca atividade física, ele se encontra acima do peso. Apesar de sua condição de saúde, Rodrigo não teve grandes problemas médicos até agora, mas recentemente começou a se preocupar com seu bem-estar, especialmente depois que amigos comentaram sobre os riscos da obesidade. Ele não tem conhecimento aprofundado sobre nutrição e dietas, e, por conta disso, já tentou várias vezes iniciar dietas por conta própria, mas sem sucesso. A pressão e o estresse do trabalho muitas vezes o levam a comer por impulso.</p>
 
    <strong>Objetivo:</strong> Perder peso e adotar um estilo de vida mais saudável, equilibrando alimentação com uma rotina de exercícios físicos moderados. <br>
 
