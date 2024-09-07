@@ -145,7 +145,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 
 **3  ESPECIFICAÇÕES DO PROJETO** 
 
-3.1 **Personas** 
+**3.1 Personas** 
 <div style="display: flex; align-items: flex-start;">
   
   <div style="flex-shrink: 0; margin-right: 20px;">
@@ -153,7 +153,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
   </div>
 
   <div>
-    <strong>Rodrigo, 41 anos</strong>  
+    <strong>Rodrigo, 41 anos</strong><br>
     <p><strong>Perfil:</strong> Rodrigo é um gerente de vendas que passa a maior parte do dia sentado em frente ao computador. Com uma rotina agitada de trabalho e pouca atividade física, ele se encontra acima do peso. Apesar de sua condição de saúde, Rodrigo não teve grandes problemas médicos até agora, mas recentemente começou a se preocupar com seu bem-estar, especialmente depois que amigos comentaram sobre os riscos da obesidade. Ele não tem conhecimento aprofundado sobre nutrição e dietas, e, por conta disso, já tentou várias vezes iniciar dietas por conta própria, mas sem sucesso. A pressão e o estresse do trabalho muitas vezes o levam a comer por impulso.</p>
 
    <strong>Objetivo:</strong> Perder peso e adotar um estilo de vida mais saudável, equilibrando alimentação com uma rotina de exercícios físicos moderados. <br>
@@ -174,8 +174,8 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
     <img src="img/persona2.png" alt="Juliana,  27  anos" style="width:150px;">
   </div>
 <div>
-<strong>Juliana,  27  anos</strong>
-<strong>Perfil:</strong> Juliana é uma arquiteta  ativa e apaixonada por esportes como corrida e natação. Apesar de sua intensa rotina de exercícios, ela tem dificuldades para ganhar peso e alcançar o aumento de massa  muscular  desejado.  Com  um  metabolismo  acelerado,  ela sente  que  o  que  consome  não  é  o  suficiente  para  atingir  seus objetivos de composição corporal. Juliana tem conhecimento básico sobre alimentação esportiva, mas não consegue encontrar uma solução que funcione para ela 
+<strong>Juliana,  27  anos</strong><br>
+<p><strong>Perfil:</strong> Juliana é uma arquiteta  ativa e apaixonada por esportes como corrida e natação. Apesar de sua intensa rotina de exercícios, ela tem dificuldades para ganhar peso e alcançar o aumento de massa  muscular  desejado.  Com  um  metabolismo  acelerado,  ela sente  que  o  que  consome  não  é  o  suficiente  para  atingir  seus objetivos de composição corporal. Juliana tem conhecimento básico sobre alimentação esportiva, mas não consegue encontrar uma solução que funcione para ela</p>
 
 <strong>Objetivo:</strong> Ganhar peso de forma saudável e aumentar sua massa muscular, enquanto mantém o desempenho esportivo. 
 
@@ -194,8 +194,8 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
   </div>
 <div>
 
-<strong>Conceição,  75  anos</strong>
-<strong>Perfil:</strong> Conceição é uma senhora aposentada que vive sozinha e cuida da casa e da sua própria alimentação. Apesar de estar no peso ideal, sua rotina é completamente sedentária e ela tem resistência  a  praticar  atividades  físicas.  Conceição  se preocupa  com  sua  saúde,  especialmente  por  sua  idade avançada e algumas recomendações médicas de melhorar a alimentação para prevenir problemas de ossos e articulações. Ela possui uma relação complicada com a tecnologia, o que a torna insegura ao usar aplicativos ou ferramentas digitais. 
+<strong>Conceição,  75  anos</strong><br>
+<strong><p>Perfil:</strong> Conceição é uma senhora aposentada que vive sozinha e cuida da casa e da sua própria alimentação. Apesar de estar no peso ideal, sua rotina é completamente sedentária e ela tem resistência  a  praticar  atividades  físicas.  Conceição  se preocupa  com  sua  saúde,  especialmente  por  sua  idade avançada e algumas recomendações médicas de melhorar a alimentação para prevenir problemas de ossos e articulações. Ela possui uma relação complicada com a tecnologia, o que a torna insegura ao usar aplicativos ou ferramentas digitais.</p>
 
 <strong>Objetivo:</strong> Manter uma alimentação saudável que atenda suas necessidades nutricionais sem a necessidade de grandes mudanças tecnológicas ou exercícios intensos. 
 
@@ -213,8 +213,8 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
   </div>
 <div>
 
-<strong>Pedro, 18 anos</strong> 
-<strong>Perfil:</strong>  Pedro  é  um  estudante  universitário  que  está começando a praticar musculação após anos de sedentarismo. Ele sempre  foi  magro  e,  recentemente,  começou  a  se preocupar com sua aparência e saúde física. Pedro tem pouco conhecimento sobre nutrição e exercícios, mas está disposto a aprender mais para ganhar massa muscular e se sentir mais confiante em seu corpo. Com a rotina de estudos e algumas atividades sociais, ele encontra dificuldade em manter uma alimentação regrada e equilibrada. 
+<strong>Pedro, 18 anos</strong><br>
+<p><strong>Perfil:</strong>  Pedro  é  um  estudante  universitário  que  está começando a praticar musculação após anos de sedentarismo. Ele sempre  foi  magro  e,  recentemente,  começou  a  se preocupar com sua aparência e saúde física. Pedro tem pouco conhecimento sobre nutrição e exercícios, mas está disposto a aprender mais para ganhar massa muscular e se sentir mais confiante em seu corpo. Com a rotina de estudos e algumas atividades sociais, ele encontra dificuldade em manter uma alimentação regrada e equilibrada.</p>
 
 <strong>Objetivo:</strong> Ganhar massa muscular de forma saudável e eficiente, combinando musculação e uma alimentação adequada. 
 
@@ -237,6 +237,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 | **Usuário do sistema**  | Orientações em relação a quantidade de água que preciso ingerir em um dia  | Manter a hidratação |
 | **Usuário do sistema**  | Orientações em relação a quantidade e tipo de exercícios que devo realizar por semana | Ter um estilo de vida balanceado  |
 | **Usuário do sistema**  | Recomendações de distribuição de macronutrientes (carboidrato, proteína e lipídeo) ideal  | Ter uma dieta equilibrada   |
+
 <br>
 
 **3.3 Requisitos Funcionais** 
