@@ -39,7 +39,7 @@ Belo Horizonte
 
    1.4. Público-Alvo
    
-    > 1.4.1 Mapa Stakeholders 
+    <blockquote>1.4.1 Mapa Stakeholders</blockquote>
 
 
 **2. OBJETIVOS**
@@ -220,7 +220,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 
 <strong>Motivações:</strong> Melhorar sua autoestima, sentir-se mais confiante e forte fisicamente. Deseja criar uma rotina saudável que possa manter a longo prazo.
 
-<strong>Frustrações:<strong> Dificuldade de encontrar tempo para planejar as refeições corretas; falta de conhecimento sobre o que deve comer para ganhar peso; medo de não alcançar seus objetivos mesmo com esforço. 
+<strong>Frustrações:</strong> Dificuldade de encontrar tempo para planejar as refeições corretas; falta de conhecimento sobre o que deve comer para ganhar peso; medo de não alcançar seus objetivos mesmo com esforço. 
 
 </div>
 </div>
@@ -282,7 +282,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 
 **4 REFERÊNCIAS** 
 
-INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATISTICA. <strong>Pesquisa nacional de saúde 2019</strong>: atenção primária à saúde e  informações antropométricas: Brasil. Rio de Janeiro: IBGE, 2020. 57 p. 
+INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATISTICA. **Pesquisa nacional de saúde 2019**: atenção primária à saúde e  informações antropométricas: Brasil. Rio de Janeiro: IBGE, 2020. 57 p. 
 
 FRANÇA, Fábio. **Públicos: como identificá-los em uma nova visão estratégica**. São Paulo: Summus Editorial, 2004. 
 
