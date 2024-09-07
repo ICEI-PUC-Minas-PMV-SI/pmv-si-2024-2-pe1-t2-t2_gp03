@@ -9,6 +9,7 @@
 
 <br><br><br><br>
 **Projeto Aplicação Web: 
+<br>
 Cálculos e Recomendações Nutricionais**
 <br><br><br><br>
 Carolina Ferreira Araujo  
@@ -28,7 +29,7 @@ Belo Horizonte
 
 **SUMÁRIO**
 
-1. **INTRODUÇÃO**
+**1. INTRODUÇÃO**
 
    1.1. Contexto 
 
@@ -38,16 +39,16 @@ Belo Horizonte
 
    1.4. Público-Alvo
    
-    1.4.1 Mapa Stakeholders 
+    > 1.4.1 Mapa Stakeholders 
 
 
-3. **OBJETIVOS**
+**2. OBJETIVOS**
 
    2.1. Objetivo Geral
 
    2.2. Objetivos Específicos
 
-4. **ESPECIFICAÇÕES DO PROJETO**
+**3. ESPECIFICAÇÕES DO PROJETO**
 
    3.1. Personas
 
@@ -59,14 +60,14 @@ Belo Horizonte
 
    3.5. Restrições
 
-5. **REFERÊNCIAS**
+**4. REFERÊNCIAS**
 
-<br><br>
+<br><br><br>
 
 
 **1  INTRODUÇÃO** 
 
-1.1 **Contexto**  
+**1.1 Contexto**  
 
 Atualmente, vivemos em um mundo interconectado pela tecnologia, onde o acesso a informações relacionadas a alimentação ocorre de maneira rápida e contínua. Esse cenário globalizado traz tanto benefícios quanto desafios. Embora a agilidade na obtenção de informações úteis seja impressionante, a mesma rapidez facilita a disseminação de dados incorretos ou enganosos. Ferramentas como motores de busca e redes sociais têm tornado a partilha de  informações  sobre  alimentação  mais  fácil,  mas  também  descontrolada (Vasconcelos et al., 2021). 
 
@@ -74,7 +75,7 @@ Nesse ambiente complexo e dinâmico, há uma demanda crescente por soluções te
 
 <br>
 
-1.2 **Problema** 
+**1.2 Problema** 
 
 A  desinformação  sobre  saúde  através  da  internet  é  preocupantemente  alta, especialmente  nas  redes  sociais,  onde  influenciadores  frequentemente  disseminam informações de baixa qualidade, falsas ou enganosas. No Brasil, estima-se que apenas 2,7% das informações postadas sobre saúde por influenciadores brasileiros de destaque  não sejam respaldadas por referências científicas, o que contribui significativamente para a propagação de desinformação para um vasto público (Marocolo et al., 2021).
 
@@ -82,7 +83,7 @@ Este problema é especialmente crítico no campo da nutrição, que é um dos te
 
 <br>
 
-1.3 **Justificativa** 
+**1.3 Justificativa** 
 
 O panorama epidemiológico da obesidade no Brasil, conforme a Pesquisa Nacional de Saúde (PNS) de 2019, revela uma situação alarmante, 1 em cada 4 brasileiros com mais de 18 anos é classificado com obesidade, totalizando cerca de 41,2 milhões de pessoas, e 60,3% da população adulta estão com excesso de peso, somando aproximadamente 96 milhões de pessoas. Em nível global, as Doenças Crônicas Não-Transmissíveis (DCNTs), como doenças cardiovasculares, câncer e diabetes, são responsáveis por sete das dez principais causas de morte, resultando em 41 milhões de óbitos anuais, o que equivale a 74%  de  todas  as  mortes  ocorridas,  conforme  as  Estimativas  Globais  de  Saúde  da Organização Mundial da Saúde (Instituto Brasileiro de Geografia e Estatística [IBGE], 2020; World Health Organization [WHO], 2023). 
 
@@ -94,13 +95,13 @@ No campo da educação nutricional, estas tecnologias não apenas capacitam os u
 
 <br>
 
-1.4 **Público-Alvo** 
+**1.4 Público-Alvo** 
 
 O público-alvo desta aplicação web inclui indivíduos de diversas idades, desde a adolescência até a terceira idade, e não requer conhecimento prévio em nutrição. O público abrange tanto pessoas sedentárias quanto aquelas fisicamente ativas, que buscam obter informações fundamentadas  em  relação  ao  seu  estado  nutricional  e  necessidades energéticas, além de gerenciar sua alimentação de maneira autônoma, sem a necessidade de consultar um profissional especializado. 
 
 <br>
 
-  **1.4.1 Mapa Stakeholders**
+ **1.4.1 Mapa Stakeholders**
 
 Segundo França (2004), o mapeamento de stakeholders permite identificar os públicos com os quais a organização se relaciona, compreender o tipo de relação estabelecida e as expectativas geradas, facilitando a criação de estratégias de aproximação para públicos prioritários. 
 
@@ -125,12 +126,12 @@ Stakeholders  que  não  são  essenciais  para  a  sobrevivência  da  aplicaç
 
 **2  OBJETIVOS** 
 
-2.1 **Objetivo Geral** 
+**2.1 Objetivo Geral** 
 
 Este projeto tem como principal objetivo desenvolver uma aplicação web intuitiva para fornecer informações sobre o estado nutricional e necessidades calóricas dos usuários, além de realizar recomendações nutricionais gerais com base nas características individuais fornecidas,  utilizando  JavaScript  como  linguagem  de  programação  e  Bootstrap  como framework. 
 
 
-2.2 **Objetivos Específicos** 
+**2.2 Objetivos Específicos** 
 
 - Permitir que o usuário preencha seu perfil, incluindo informações sobre gênero, idade, peso, altura e Fator de Atividade Física (FAT), a fim de ajustar o cálculo das necessidades calóricas totais. 
 - Calcular o Índice de Massa Corporal (IMC) dos usuários e fornecer a classificação de IMC correspondente, ajudando na compreensão do estado nutricional. 
@@ -226,7 +227,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 
 <br>
 
-3.2 **Histórias de Usuários** 
+**3.2 Histórias de Usuários** 
 
 | **Eu Como** | **Quero/Preciso**  | **Para** |
 | -------- | -------- | -------- |
@@ -236,10 +237,11 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 | **Usuário do sistema**  | Orientações em relação a quantidade de água que preciso ingerir em um dia  | Manter a hidratação |
 | **Usuário do sistema**  | Orientações em relação a quantidade e tipo de exercícios que devo realizar por semana | Ter um estilo de vida balanceado  |
 | **Usuário do sistema**  | Recomendações de distribuição de macronutrientes (carboidrato, proteína e lipídeo) ideal  | Ter uma dieta equilibrada   |
+<br>
 
-3.3 **Requisitos Funcionais** 
+**3.3 Requisitos Funcionais** 
 
-| ID  | Descrição  | Prioridade (B/M/A)* |
+| ID  | Descrição  | Prioridade (B/M/A) |
 | -------- | -------- | -------- |
 | RF01  | Exibir formulário para inserção dos dados do usuário  | A  |
 | RF02  | Calcular IMC, TMB e GET a partir dos dados preenchidos  | A |
@@ -249,13 +251,13 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 | RF06 | Exibir modais de ajuda explicando termos técnicos como FAT, IMC, TMB e GET  | B |
 
 
-<h7>*B=Baixa, M=Média, A=Alta.</h5> 
+<h7>B=Baixa, M=Média, A=Alta.</h5> 
 
 <br>
 
-3.4 **Requisitos Não-Funcionais** 
+**3.4 Requisitos Não-Funcionais** 
 
-| ID  | Descrição  | Prioridade (B/M/A)* |
+| ID  | Descrição  | Prioridade (B/M/A) |
 | -------- | -------- | -------- |
 | RNF01 | Usabilidade - A interface do usuário deve ser intuitiva, sendo fácil de operar mesmo para pessoas sem familiaridade com tecnologia  | A  |
 | RNF02  | Usabilidade - O sistema deve ser responsivo, garantindo que a interface do usuário se adapte de forma fluida e sem distorções a qualquer tamanho de tela   | M |
@@ -263,11 +265,11 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 | RNF04  | Compatibilidade - O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Safari, Edge) e suas versões mais recentes  | A |
 | RNF05  | Performance - O sistema deve ser capaz de processar e responder a todas as solicitações dos usuários em até 3 segundos | M |
 
-<h7>*B=Baixa, M=Média, A=Alta.</h5>
+<h7>B=Baixa, M=Média, A=Alta.</h5>
 
 <br>
 
-3.5 **Restrições** 
+**3.5 Restrições** 
 
 | ID | Descrição |
 | -------- | -------- | 
@@ -278,9 +280,9 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 
 <br><br>
 
-**4  REFERÊNCIAS** 
+**4 REFERÊNCIAS** 
 
-INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATISTICA. **Pesquisa nacional de saúde 2019**: atenção primária à saúde e  informações antropométricas: Brasil. Rio de Janeiro: IBGE, 2020. 57 p. 
+INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATISTICA. <strong>Pesquisa nacional de saúde 2019</strong>: atenção primária à saúde e  informações antropométricas: Brasil. Rio de Janeiro: IBGE, 2020. 57 p. 
 
 FRANÇA, Fábio. **Públicos: como identificá-los em uma nova visão estratégica**. São Paulo: Summus Editorial, 2004. 
 
