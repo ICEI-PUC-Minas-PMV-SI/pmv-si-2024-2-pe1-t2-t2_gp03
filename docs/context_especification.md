@@ -3,6 +3,7 @@
 <br> <br> <br>
 
 **PONTIFÍCIA UNIVERSIDADE CATÓLICA DE MINAS GERAIS**
+<br>
 **Puc Minas Virtual**
 
 
@@ -17,7 +18,9 @@ Irvig Moreira Krehan
 Marcos Martins dos Santos  
 Thiago Alessandro Batista
 
-Belo Horizonte 2024 
+Belo Horizonte 
+<br>
+2024 
 <br><br>
 
 
@@ -34,16 +37,17 @@ Belo Horizonte 2024
    1.3. Justificativa
 
    1.4. Público-Alvo
+   
     1.4.1 Mapa Stakeholders 
 
 
-2. **OBJETIVOS**
+3. **OBJETIVOS**
 
    2.1. Objetivo Geral
 
    2.2. Objetivos Específicos
 
-3. **ESPECIFICAÇÕES DO PROJETO**
+4. **ESPECIFICAÇÕES DO PROJETO**
 
    3.1. Personas
 
@@ -55,7 +59,7 @@ Belo Horizonte 2024
 
    3.5. Restrições
 
-4. **REFERÊNCIAS**
+5. **REFERÊNCIAS**
 
 <br><br>
 
@@ -68,6 +72,7 @@ Atualmente, vivemos em um mundo interconectado pela tecnologia, onde o acesso a 
 
 Nesse ambiente complexo e dinâmico, há uma demanda crescente por soluções tecnológicas  que  não  apenas  facilitem  o  acesso  a  informações  nutricionais,  mas  que também garantam a qualidade e a confiabilidade desses dados. Esse cenário representa uma oportunidade  significativa  para  o  desenvolvimento  de  inovações  tecnológicas,  como aplicativos e recursos online, que possam fornecer informações nutricionais baseadas em evidências de forma acessível e personalizada, a fim de combater a desinformação e contribuir para uma gestão mais consciente da alimentação (Silva et al., 2023). 
 
+<br>
 
 1.2 **Problema** 
 
@@ -75,6 +80,7 @@ A  desinformação  sobre  saúde  através  da  internet  é  preocupantemente 
 
 Este problema é especialmente crítico no campo da nutrição, que é um dos temas de saúde mais populares nas mídias digitais. A falta de literacia alimentar, exacerbada por essa disseminação de informações incorretas, representa um desafio crescente que afeta de forma prejudicial a saúde pública em escala global (Vasconcelos et al., 2021; Silva et al., 2023).  
 
+<br>
 
 1.3 **Justificativa** 
 
@@ -86,11 +92,13 @@ Nesse  contexto,  ferramentas  digitais  de  fácil  acesso,  como  aplicativos,
 
 No campo da educação nutricional, estas tecnologias não apenas capacitam os usuários a tomarem decisões nutricionais mais conscientes e informadas, como também combatem  a  prevalente  propagação  de  desinformação.  Além  disso,  a  popularidade crescente de aplicativos voltados para a saúde reforça seu potencial na promoção de hábitos alimentares  saudáveis,  contribuindo  de  forma  significativa  para  a  melhoria  da  saúde pública (Sangra & Gonzalez-Sanmamed, 2010; Rose et al., 2017; Silva et al., 2023). 
 
+<br>
 
 1.4 **Público-Alvo** 
 
 O público-alvo desta aplicação web inclui indivíduos de diversas idades, desde a adolescência até a terceira idade, e não requer conhecimento prévio em nutrição. O público abrange tanto pessoas sedentárias quanto aquelas fisicamente ativas, que buscam obter informações fundamentadas  em  relação  ao  seu  estado  nutricional  e  necessidades energéticas, além de gerenciar sua alimentação de maneira autônoma, sem a necessidade de consultar um profissional especializado. 
 
+<br>
 
   **1.4.1 Mapa Stakeholders**
 
@@ -113,6 +121,7 @@ Stakeholders  que  não  são  essenciais  para  a  sobrevivência  da  aplicaç
 - Comunidade  Local  e  Parceiros  Institucionais:  Organizações  que  apoiam iniciativas de saúde e bem-estar. Eles podem promover a aplicação em suas comunidades e parcerias, ajudando a aumentar o impacto social do produto.
 
 
+<br>
 
 **2  OBJETIVOS** 
 
@@ -155,7 +164,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 
 </div>
 
-<br><br>
+<br>
 
 
 <div style="display: flex; align-items: flex-start;">
@@ -175,7 +184,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 </div>
 </div>
 
-<br><br>
+<br>
 
 <div style="display: flex; align-items: flex-start;">
 
@@ -195,7 +204,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 </div>
 </div>
 
-<br><br>
+<br>
 <div style="display: flex; align-items: flex-start;">
 
   <div style="flex-shrink: 0; margin-right: 20px;">
@@ -215,7 +224,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 </div>
 </div>
 
-<br><br>
+<br>
 
 3.2 **Histórias de Usuários** 
 
@@ -242,6 +251,8 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 
 <h7>*B=Baixa, M=Média, A=Alta.</h5> 
 
+<br>
+
 3.4 **Requisitos Não-Funcionais** 
 
 | ID  | Descrição  | Prioridade (B/M/A)* |
@@ -253,6 +264,8 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 | RNF05  | Performance - O sistema deve ser capaz de processar e responder a todas as solicitações dos usuários em até 3 segundos | M |
 
 <h7>*B=Baixa, M=Média, A=Alta.</h5>
+
+<br>
 
 3.5 **Restrições** 
 
@@ -267,7 +280,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 
 **4  REFERÊNCIAS** 
 
-INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATISTICA. **Pesquisa nacional de saúde 2019***:* atenção primária à saúde e  informações antropométricas: Brasil**.** Rio de Janeiro: IBGE, 2020. 57 p. 
+INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATISTICA. **Pesquisa nacional de saúde 2019**: atenção primária à saúde e  informações antropométricas: Brasil. Rio de Janeiro: IBGE, 2020. 57 p. 
 
 FRANÇA, Fábio. **Públicos: como identificá-los em uma nova visão estratégica**. São Paulo: Summus Editorial, 2004. 
 
@@ -284,5 +297,3 @@ TALLON, José Maria; DIAS, Raquel Saavedra; COSTA, Aldo Matos; NARCISO, Janine; 
 VASCONCELOS, Catarina; COSTA, Renato Lopes; DIAS, Álvaro Lopes; PEREIRA, Leandro;  SANTOS,  José  Pedro.  **Online  influencers:**  healthy  food  or  fake  news. International Journal of Internet Marketing and Advertising, v. 15, n. 2, p. 149-175, 8 abr. 2021. 
 
 WORLD  HEALTH  ORGANIZATION.  **Noncommunicable  diseases.**  WHO,  2023. Disponível  em: [ https://www.who.int/news-room/fact-sheets/detail/noncommunicable- diseases.](https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases) Acesso em: 01 set. 2024. 
-
-
