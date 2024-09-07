@@ -34,6 +34,8 @@ Belo Horizonte 2024
    1.3. Justificativa
 
    1.4. Público-Alvo
+    1.4.1 Mapa Stakeholders 
+
 
 2. **OBJETIVOS**
 
@@ -53,15 +55,16 @@ Belo Horizonte 2024
 
    3.5. Restrições
 
-4. REFERÊNCIAS
+4. **REFERÊNCIAS**
 
 <br><br>
+
 
 **1  INTRODUÇÃO** 
 
 1.1 **Contexto**  
 
-Atualmente, vivemos em um mundo interconectado pela tecnologia, onde o acesso a informações relacionadas a alimentação ocorre  de maneira rápida  e contínua. Esse cenário globalizado traz tanto benefícios quanto desafios. Embora a agilidade na obtenção de informações úteis seja impressionante, a mesma rapidez facilita a disseminação de dados incorretos ou enganosos. Ferramentas como motores de busca e redes sociais têm tornado a  partilha  de  informações  sobre  alimentação  mais  fácil,  mas  também  descontrolada (Vasconcelos et al., 2021). 
+Atualmente, vivemos em um mundo interconectado pela tecnologia, onde o acesso a informações relacionadas a alimentação ocorre de maneira rápida e contínua. Esse cenário globalizado traz tanto benefícios quanto desafios. Embora a agilidade na obtenção de informações úteis seja impressionante, a mesma rapidez facilita a disseminação de dados incorretos ou enganosos. Ferramentas como motores de busca e redes sociais têm tornado a partilha de  informações  sobre  alimentação  mais  fácil,  mas  também  descontrolada (Vasconcelos et al., 2021). 
 
 Nesse ambiente complexo e dinâmico, há uma demanda crescente por soluções tecnológicas  que  não  apenas  facilitem  o  acesso  a  informações  nutricionais,  mas  que também garantam a qualidade e a confiabilidade desses dados. Esse cenário representa uma oportunidade  significativa  para  o  desenvolvimento  de  inovações  tecnológicas,  como aplicativos e recursos online, que possam fornecer informações nutricionais baseadas em evidências de forma acessível e personalizada, a fim de combater a desinformação e contribuir para uma gestão mais consciente da alimentação (Silva et al., 2023). 
 
@@ -89,12 +92,11 @@ No campo da educação nutricional, estas tecnologias não apenas capacitam os u
 O público-alvo desta aplicação web inclui indivíduos de diversas idades, desde a adolescência até a terceira idade, e não requer conhecimento prévio em nutrição. O público abrange tanto pessoas sedentárias quanto aquelas fisicamente ativas, que buscam obter informações fundamentadas  em  relação  ao  seu  estado  nutricional  e  necessidades energéticas, além de gerenciar sua alimentação de maneira autônoma, sem a necessidade de consultar um profissional especializado. 
 
 
-  **1.4.1 Mapa de Stakeholders da Aplicação**
+  **1.4.1 Mapa Stakeholders**
 
 Segundo França (2004), o mapeamento de stakeholders permite identificar os públicos com os quais a organização se relaciona, compreender o tipo de relação estabelecida e as expectativas geradas, facilitando a criação de estratégias de aproximação para públicos prioritários. 
 
-
-  **1.4.2 Grau de Dependência** 
+<strong>Grau Dependência</strong> 
 
 Esses são os stakeholders essenciais para a sobrevivência e operação da aplicação. A empresa depende diretamente deles para funcionar corretamente.
 
@@ -102,22 +104,14 @@ Esses são os stakeholders essenciais para a sobrevivência e operação da apli
 - Equipe  de  Desenvolvimento  e  Manutenção:  Programadores,  designers  e engenheiros de software responsáveis por criar, atualizar e manter a aplicação. Sem eles, a aplicação não pode evoluir ou ser corrigida.
 
 
-  **1.4.3 Grau de Participação** 
+<strong>Grau Participação</strong> 
 
 Stakeholders  que  não  são  essenciais  para  a  sobrevivência  da  aplicação,  mas colaboram para o seu crescimento e melhoria. 
 
 - Consultorias  de  Saúde  e  Nutrição:  Empresas  ou  profissionais  que  podem fornecer  conselhos  ou  informações  relevantes  para  o  desenvolvimento  de funcionalidades  da  aplicação,  melhorando  a  qualidade  das  recomendações nutricionais.
-- Profissionais  de  Saúde  (Nutricionistas  e  Personal  Trainers):  Embora  não dependam  diretamente  da  aplicação,  podem  recomendá-la  a  seus  clientes, ajudando a expandir seu uso. Seu feedback pode melhorar a adequação das recomendações nutricionais oferecidas.
+- Profissionais  de  Saúde:  Embora  não dependam  diretamente  da  aplicação,  podem  recomendá-la  a  seus  clientes, ajudando a expandir seu uso. Seu feedback pode melhorar a adequação das recomendações nutricionais oferecidas.
 - Comunidade  Local  e  Parceiros  Institucionais:  Organizações  que  apoiam iniciativas de saúde e bem-estar. Eles podem promover a aplicação em suas comunidades e parcerias, ajudando a aumentar o impacto social do produto.
 
-
-  **1.4.4 Grau de Interferência:** 
-
-Stakeholders que podem influenciar positivamente ou negativamente a imagem da aplicação, direta ou indiretamente. 
-
-- Concorrentes (Aplicações Similares): Outras plataformas de nutrição e saúde, que podem tanto inspirar melhorias quanto competir pelos mesmos usuários. Sua  atuação  pode  interferir  diretamente  na  reputação  e  crescimento  da aplicação.
-- Mídia e Comunicação de Massa: Veículos de comunicação (televisão, rádio, internet) que podem influenciar a percepção do público sobre a aplicação. Avaliações, notícias ou publicações podem gerar uma boa ou má reputação.
-- Influenciadores Digitais (Blogueiros, YouTubers, etc.): Pessoas com grande audiência nas redes sociais que podem impactar diretamente a imagem da aplicação ao recomendá-la ou criticá-la. Esses influenciadores podem fazer resenhas  ou  compartilhar  suas  experiências,  afetando  a  popularidade  da plataforma.
 
 
 **2  OBJETIVOS** 
@@ -193,7 +187,9 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 <strong>Conceição,  75  anos</strong>
 <strong>Perfil:</strong> Conceição é uma senhora aposentada que vive sozinha e cuida da casa e da sua própria alimentação. Apesar de estar no peso ideal, sua rotina é completamente sedentária e ela tem resistência  a  praticar  atividades  físicas.  Conceição  se preocupa  com  sua  saúde,  especialmente  por  sua  idade avançada e algumas recomendações médicas de melhorar a alimentação para prevenir problemas de ossos e articulações. Ela possui uma relação complicada com a tecnologia, o que a torna insegura ao usar aplicativos ou ferramentas digitais. 
 
-<strong>Objetivo:</strong> Manter uma alimentação saudável que atenda suas necessidades nutricionais sem a necessidade de grandes mudanças tecnológicas ou exercícios intensos. **Motivações:**  Prevenir  problemas  de  saúde  relacionados  ao  envelhecimento,  como osteoporose, diabetes e doenças cardiovasculares. Deseja manter-se independente e evitar complicações médicas no futuro. 
+<strong>Objetivo:</strong> Manter uma alimentação saudável que atenda suas necessidades nutricionais sem a necessidade de grandes mudanças tecnológicas ou exercícios intensos. 
+
+<strong>Motivações:</strong>  Prevenir  problemas  de  saúde  relacionados  ao  envelhecimento, como osteoporose, diabetes e doenças cardiovasculares. Deseja manter-se independente e evitar complicações médicas no futuro. 
 
 <strong>Frustrações:</strong> Dificuldade de usar tecnologia; medo de não conseguir se adaptar a uma nova dieta; não gosta de atividades físicas e tem pouca disposição para se exercitar. 
 </div>
@@ -242,6 +238,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 | RF04  | Recomendar quantidade e tipo de exercícios baseado nos dados inseridos  | M |
 | RF05  | Recomendar distribuição de macronutrientes baseado nos dados inseridos | M |
 | RF06 | Exibir modais de ajuda explicando termos técnicos como FAT, IMC, TMB e GET  | B |
+
 
 <h7>*B=Baixa, M=Média, A=Alta.</h5> 
 
