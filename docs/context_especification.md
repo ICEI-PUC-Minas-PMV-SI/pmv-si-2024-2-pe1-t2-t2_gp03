@@ -150,11 +150,11 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
   
   <div style="flex-shrink: 0; margin-right: 20px;">
     <img src="img/persona1.png" alt="Rodrigo, 41 anos" style="width:150px;">
-  </div>
-
-  <div>
+ </div>
+<div>
+   
     <strong>Rodrigo, 41 anos</strong><br>
-    <p><strong>Perfil:</strong> Rodrigo é um gerente de vendas que passa a maior parte do dia sentado em frente ao computador. Com uma rotina agitada de trabalho e pouca atividade física, ele se encontra acima do peso. Apesar de sua condição de saúde, Rodrigo não teve grandes problemas médicos até agora, mas recentemente começou a se preocupar com seu bem-estar, especialmente depois que amigos comentaram sobre os riscos da obesidade. Ele não tem conhecimento aprofundado sobre nutrição e dietas, e, por conta disso, já tentou várias vezes iniciar dietas por conta própria, mas sem sucesso. A pressão e o estresse do trabalho muitas vezes o levam a comer por impulso.</p>
+    <strong><p>Perfil:</strong> Rodrigo é um gerente de vendas que passa a maior parte do dia sentado em frente ao computador. Com uma rotina agitada de trabalho e pouca atividade física, ele se encontra acima do peso. Apesar de sua condição de saúde, Rodrigo não teve grandes problemas médicos até agora, mas recentemente começou a se preocupar com seu bem-estar, especialmente depois que amigos comentaram sobre os riscos da obesidade. Ele não tem conhecimento aprofundado sobre nutrição e dietas, e, por conta disso, já tentou várias vezes iniciar dietas por conta própria, mas sem sucesso. A pressão e o estresse do trabalho muitas vezes o levam a comer por impulso.</p>
 
    <strong>Objetivo:</strong> Perder peso e adotar um estilo de vida mais saudável, equilibrando alimentação com uma rotina de exercícios físicos moderados. <br>
 
@@ -162,7 +162,6 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 
    <strong>Frustrações:</strong> Falta de tempo e conhecimento para elaborar uma dieta saudável; dificuldade em manter a motivação e disciplina; medo de que as dietas restritivas o deixem sem energia no trabalho.
   </div>
-
 </div>
 
 <br>
@@ -174,8 +173,9 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
     <img src="img/persona2.png" alt="Juliana,  27  anos" style="width:150px;">
   </div>
 <div>
+ 
 <strong>Juliana,  27  anos</strong><br>
-<p><strong>Perfil:</strong> Juliana é uma arquiteta  ativa e apaixonada por esportes como corrida e natação. Apesar de sua intensa rotina de exercícios, ela tem dificuldades para ganhar peso e alcançar o aumento de massa  muscular  desejado.  Com  um  metabolismo  acelerado,  ela sente  que  o  que  consome  não  é  o  suficiente  para  atingir  seus objetivos de composição corporal. Juliana tem conhecimento básico sobre alimentação esportiva, mas não consegue encontrar uma solução que funcione para ela</p>
+<strong><p>Perfil:</strong> Juliana é uma arquiteta  ativa e apaixonada por esportes como corrida e natação. Apesar de sua intensa rotina de exercícios, ela tem dificuldades para ganhar peso e alcançar o aumento de massa  muscular  desejado.  Com  um  metabolismo  acelerado,  ela sente  que  o  que  consome  não  é  o  suficiente  para  atingir  seus objetivos de composição corporal. Juliana tem conhecimento básico sobre alimentação esportiva, mas não consegue encontrar uma solução que funcione para ela</p>
 
 <strong>Objetivo:</strong> Ganhar peso de forma saudável e aumentar sua massa muscular, enquanto mantém o desempenho esportivo. 
 
@@ -214,7 +214,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 <div>
 
 <strong>Pedro, 18 anos</strong><br>
-<p><strong>Perfil:</strong>  Pedro  é  um  estudante  universitário  que  está começando a praticar musculação após anos de sedentarismo. Ele sempre  foi  magro  e,  recentemente,  começou  a  se preocupar com sua aparência e saúde física. Pedro tem pouco conhecimento sobre nutrição e exercícios, mas está disposto a aprender mais para ganhar massa muscular e se sentir mais confiante em seu corpo. Com a rotina de estudos e algumas atividades sociais, ele encontra dificuldade em manter uma alimentação regrada e equilibrada.</p>
+<strong><p>Perfil:</strong>  Pedro  é  um  estudante  universitário  que  está começando a praticar musculação após anos de sedentarismo. Ele sempre  foi  magro  e,  recentemente,  começou  a  se preocupar com sua aparência e saúde física. Pedro tem pouco conhecimento sobre nutrição e exercícios, mas está disposto a aprender mais para ganhar massa muscular e se sentir mais confiante em seu corpo. Com a rotina de estudos e algumas atividades sociais, ele encontra dificuldade em manter uma alimentação regrada e equilibrada.</p>
 
 <strong>Objetivo:</strong> Ganhar massa muscular de forma saudável e eficiente, combinando musculação e uma alimentação adequada. 
 
