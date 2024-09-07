@@ -39,7 +39,7 @@ Belo Horizonte
 
    1.4. Público-Alvo
    
-    <blockquote>1.4.1 Mapa Stakeholders</blockquote>
+    &nbsp;&nbsp;&nbsp;1.4.1 Mapa de Stakeholders
 
 
 **2. OBJETIVOS**
@@ -101,7 +101,7 @@ O público-alvo desta aplicação web inclui indivíduos de diversas idades, des
 
 <br>
 
- **1.4.1 Mapa Stakeholders**
+ **1.4.1 Mapa de Stakeholders**
 
 Segundo França (2004), o mapeamento de stakeholders permite identificar os públicos com os quais a organização se relaciona, compreender o tipo de relação estabelecida e as expectativas geradas, facilitando a criação de estratégias de aproximação para públicos prioritários. 
 
@@ -142,6 +142,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 - Fornecer orientações personalizadas em relação ao tempo e intensidade ideais de atividade física. 
 - Sugerir  uma  redução  calórica  segura  e  eficaz  caso  o  usuário  esteja  acima  da classificação de IMC recomendada, garantindo que o déficit não seja excessivo e respeitando as suas necessidades nutricionais. 
 
+<br>
 
 **3  ESPECIFICAÇÕES DO PROJETO** 
 
@@ -241,7 +242,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 
 **3.3 Requisitos Funcionais** 
 
-| ID  | Descrição  | Prioridade (B/M/A) |
+| ID  | Descrição  | Prioridade (B/M/A)* |
 | -------- | -------- | -------- |
 | RF01  | Exibir formulário para inserção dos dados do usuário  | A  |
 | RF02  | Calcular IMC, TMB e GET a partir dos dados preenchidos  | A |
@@ -251,13 +252,13 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 | RF06 | Exibir modais de ajuda explicando termos técnicos como FAT, IMC, TMB e GET  | B |
 
 
-<h7>B=Baixa, M=Média, A=Alta.</h5> 
+<h7>*B=Baixa, M=Média, A=Alta.</h5> 
 
 <br>
 
 **3.4 Requisitos Não-Funcionais** 
 
-| ID  | Descrição  | Prioridade (B/M/A) |
+| ID  | Descrição  | Prioridade (B/M/A)* |
 | -------- | -------- | -------- |
 | RNF01 | Usabilidade - A interface do usuário deve ser intuitiva, sendo fácil de operar mesmo para pessoas sem familiaridade com tecnologia  | A  |
 | RNF02  | Usabilidade - O sistema deve ser responsivo, garantindo que a interface do usuário se adapte de forma fluida e sem distorções a qualquer tamanho de tela   | M |
@@ -265,7 +266,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 | RNF04  | Compatibilidade - O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Safari, Edge) e suas versões mais recentes  | A |
 | RNF05  | Performance - O sistema deve ser capaz de processar e responder a todas as solicitações dos usuários em até 3 segundos | M |
 
-<h7>B=Baixa, M=Média, A=Alta.</h5>
+<h7>*B=Baixa, M=Média, A=Alta.</h5>
 
 <br>
 
