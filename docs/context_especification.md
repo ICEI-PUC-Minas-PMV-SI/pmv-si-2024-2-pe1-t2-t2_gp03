@@ -37,9 +37,8 @@ Belo Horizonte
 
    1.3. Justificativa
 
-   1.4. Público-Alvo
-   
-    &nbsp;&nbsp;&nbsp;1.4.1 Mapa de Stakeholders
+   1.4. Público-Alvo <br>
+        1.4.1 Mapa de Stakeholders
 
 
 **2. OBJETIVOS**
