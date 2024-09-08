@@ -164,7 +164,10 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
   </div>
 </div>
 
+ ![Mapa da empatia - Rodrigo](img/rodrigo-mapa-empatia.png)
 <br>
+ 
+
 
 
 <div style="display: flex; align-items: flex-start;">
@@ -185,6 +188,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 </div>
 </div>
 
+ ![Mapa da empatia - Juliana](img/juliana-mapa-empatia.png)
 <br>
 
 <div style="display: flex; align-items: flex-start;">
@@ -205,6 +209,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 </div>
 </div>
 
+![Mapa da empatia - Conceição](img/conceicao-mapa-empatia.png)
 <br>
 <div style="display: flex; align-items: flex-start;">
 
@@ -225,6 +230,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 </div>
 </div>
 
+![Mapa da empatia - Pedro](img/pedro-mapa-empatia.png)
 <br>
 
 **3.2 Histórias de Usuários** 
