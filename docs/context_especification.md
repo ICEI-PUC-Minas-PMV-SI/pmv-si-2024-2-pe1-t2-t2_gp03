@@ -231,12 +231,15 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 
 | **Eu Como** | **Quero/Preciso**  | **Para** |
 | -------- | -------- | -------- |
-| **Usuário do sistema**  | Inserir meus dados para obter o IMC | Saber se estou no peso ideal  |
-| **Usuário do sistema**  | Inserir meus dados para obter o TMB | Saber a quantidade de energia necessária para a manutenção das funções vitais do organismo  |
-| **Usuário do sistema**  | Inserir meus dados para obter o GET | Saber o meu gasto calórico total diário e quanto consumir para manter o peso ideal |
-| **Usuário do sistema**  | Orientações em relação a quantidade de água que preciso ingerir em um dia  | Manter a hidratação |
-| **Usuário do sistema**  | Orientações em relação a quantidade e tipo de exercícios que devo realizar por semana | Ter um estilo de vida balanceado  |
-| **Usuário do sistema**  | Recomendações de distribuição de macronutrientes (carboidrato, proteína e lipídeo) ideal  | Ter uma dieta equilibrada   |
+| **Usuário idoso (Conceição)**  | Receber sugestões simples e fáceis de entender de práticas saudáveis   | Melhorar minha alimentação sem precisar aprender a usar tecnologias complicadas ou fazer mudanças drásticas na minha rotina  |
+| **Usuário sedentário (Rodrigo)**  | Calcular minha Taxa Metabólica Basal (TMB) após preencher minhas informações de gênero, idade, peso e altura  | Poder ajustar minha alimentação para perda de peso de maneira mais eficiente  |
+| **Usuário jovem (Pedro)**  | Receber orientações sobre a distribuição de macronutrientes  | Seguir uma dieta balanceada que ajude no ganho muscular sem prejudicar a saúde |
+| **Usuário ativo (Juliana)**  | Receber recomendações personalizadas sobre o tempo e intensidade ideais de atividade física   | Maximizar os resultados do meu treinamento sem prejudicar meu corpo  |
+| **Usuário sedentário (Rodrigo)**  | Receber uma sugestão de déficit calórico seguro | Atingir uma perda de peso gradual e saudável  |
+| **Usuário jovem (Pedro)**  | Monitorar meu IMC de forma fácil e entender se estou dentro de uma faixa saudável  | Ajustar minha alimentação e treino de acordo com meu progresso no ganho de peso   |
+| **Usuário ativo (Juliana)**  | Calcular meu Gasto Energético Total (GET)   | Garantir que estou consumindo calorias suficientes para meu objetivo de ganho de peso   |
+| **Usuário do sistema**  | Receber recomendações sobre a intensidade e tempo de atividades físicas   | Garantir que estou praticando exercícios de forma eficaz para atingir meus objetivos de saúde    |
+| **Usuário do sistema**  | Verificar a quantidade ideal de água para consumo diário com base em meu perfil    | Manter a hidratação adequada diariamente   |
 
 <br>
 
