@@ -247,7 +247,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 | **Usuário do sistema**  | Calcular meu Gasto Energético Total (GET)  | Saber o meu gasto calórico total diário e quanto consumir para manter o peso ideal  |
 | **Usuário do sistema**  | Receber uma sugestão de déficit calórico seguro caso esteja com a classificação de IMC acima da normalidade | Atingir uma perda de peso gradual e saudável  |
 | **Usuário do sistema**  | Receber recomendações sobre o tempo e intensidade de atividades físicas que devo realizar por semana | Garantir que estou praticando exercícios de forma eficaz para atingir meus objetivos de saúde    |
-| **Usuário do sistema**  | Verificar a quantidade ideal de água para consumo diário com base em meu perfil    | Manter a hidratação adequada diariamente   |
+| **Usuário do sistema**  | Verificar a quantidade ideal de água para consumo diário com base em meu perfil  | Manter a hidratação adequada diariamente   |
 | **Usuário do sistema**  | Receber orientações nutricionais gerais e fáceis de entender | Melhorar minha alimentação sem precisar aprender a usar tecnologias complicadas ou fazer mudanças drásticas na minha rotina  |
 
 <br>
