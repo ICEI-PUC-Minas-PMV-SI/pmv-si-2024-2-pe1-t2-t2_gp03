@@ -23,7 +23,7 @@ Thiago Alessandro Batista
 Belo Horizonte 
 <br>
 2024 
-<br><br>
+<br><br><br>
 
 
 </div>
@@ -239,7 +239,6 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 
 | **Eu Como** | **Quero/Preciso**  | **Para** |
 | -------- | -------- | -------- |
-
 | **Usuário do sistema**  | Obter o meu IMC e saber a classificação correspondente  | Saber se estou no peso ideal |
 | **Usuário do sistema**  | Calcular minha Taxa Metabólica Basal (TMB) | Saber a quantidade de energia necessária para a manutenção das funções vitais do organismo    |
 | **Usuário do sistema**  | Receber orientações sobre a distribuição de macronutrientes (carboidrato, proteína e lipídeo) ideal | Seguir uma dieta equilibrada sem prejuizos a saúde |
