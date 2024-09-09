@@ -263,6 +263,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 | RF05  | Recomendar distribuição de macronutrientes baseado nos dados inseridos | M |
 | RF06  | Realizar orientações nutricionais gerais | M |
 | RF07 | Exibir modais de ajuda explicando termos técnicos como FAT, IMC, TMB e GET  | B |
+| RF08 | Ter persistência local dos dados informados, sendo possível restaurar informações do armazenamento local, cache ou cookies  | M |
 
 
 <h7>*B=Baixa, M=Média, A=Alta.</h5> 
@@ -275,9 +276,11 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 | -------- | -------- | -------- |
 | RNF01 | Usabilidade - A interface do usuário deve ser intuitiva, sendo fácil de operar mesmo para pessoas sem familiaridade com tecnologia  | A  |
 | RNF02  | Usabilidade - O sistema deve ser responsivo, garantindo que a interface do usuário se adapte de forma fluida e sem distorções a qualquer tamanho de tela   | M |
-| RNF03  | Usabilidade - O sistema deve ter um design visual atraente, utilizando uma paleta de cores harmoniosa, tipografia legível e uma interface que promova uma experiência positiva   | B |
+| RNF03  | Usabilidade - O sistema deve ter um design visual atraente, utilizando uma paleta de cores harmoniosa, tipografia legível e uma interface que promova uma experiência positiva   | M |
 | RNF04  | Compatibilidade - O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Safari, Edge) e suas versões mais recentes  | A |
 | RNF05  | Performance - O sistema deve ser capaz de processar e responder a todas as solicitações dos usuários em até 3 segundos | M |
+| RNF06  | Acessibilidade - O sistema deve prover ferramentas e/ou funcionalidades que promovam uma experiência inclusiva para usuários com deficiencias audiovisuais, por exemplo, alteração de tamanho de fonte, leitura de texto em áudio, transcrição em libras, entre outras | M |
+| RNF07  | Acessibilidade - O sistema deve suportar a tradução do texto em pelo menos três línguas diferentes. Ex: pt-br, en-us, espanhol | B |
 
 <h7>*B=Baixa, M=Média, A=Alta.</h5>
 
@@ -288,9 +291,11 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 | ID | Descrição |
 | -------- | -------- | 
 | 01 | Limitação na precisão dos dados inseridos pelo usuário, que pode impactar a confiabilidade das recomendações realizadas pelo aplicativo  | 
-| 02 | Limitação de acessibilidade para usuários com deficiência, devido a dificuldade de aplicar exigências de padrões como WCAG  | 
+| 02 | Limitação quanto ao compartilhamento de informações entre usuários, que é dificultado por conta do armazenamento local de dados  | 
 | 03 | Limitação de alguns cálculos e recomendações com base em localização geográfica e idioma, que podem impactar a relevância e eficácia das recomendações |
 | 04  | Limitação de possíveis recomendações para o usuário, devido a ausência de um back-end que permitiria o armazenamento do histórico do usuário em longo prazo, enriquecendo a efetividade das recomendações  |
+| 05 | Limitação de funcionalidades restritas ao que os navegadores são capazes de processar  |
+| 06 | Limitação de funcionalidades restritas às tecnologias disponíveis e permitidas à realização deste projeto  |
 
 <br><br>
 
