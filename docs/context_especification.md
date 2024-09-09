@@ -19,6 +19,7 @@ Irvig Moreira Krehan
 Marcos Martins dos Santos  
 Thiago Alessandro Batista
 
+<br><br>
 Belo Horizonte 
 <br>
 2024 
@@ -139,7 +140,8 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 - Fornecer orientações em relação a quantidade ideal de água que o usuário deve consumir diariamente, promovendo uma hidratação adequada 
 - Realizar  recomendações  sobre  a  distribuição  ideal  de  macronutrientes (carboidratos,  proteínas  e  lipídeos),  auxiliando  os  usuários  a  evitar  dietas desequilibradas. 
 - Fornecer orientações personalizadas em relação ao tempo e intensidade ideais de atividade física. 
-- Sugerir  uma  redução  calórica  segura  e  eficaz  caso  o  usuário  esteja  acima  da classificação de IMC recomendada, garantindo que o déficit não seja excessivo e respeitando as suas necessidades nutricionais. 
+- Sugerir  uma  redução  calórica  segura  e  eficaz  caso  o  usuário  esteja  acima  da classificação de IMC recomendada, garantindo que o déficit não seja excessivo e respeitando as suas necessidades nutricionais.
+- Realizar orientações nutricionais gerais.
 
 <br>
 
@@ -165,7 +167,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 </div>
 
  ![Mapa da empatia - Rodrigo](img/rodrigo-mapa-empatia.png)
-<br>
+<br><br><br>
  
 
 
@@ -189,7 +191,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 </div>
 
  ![Mapa da empatia - Juliana](img/juliana-mapa-empatia.png)
-<br>
+<br><br><br>
 
 <div style="display: flex; align-items: flex-start;">
 
@@ -210,7 +212,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 </div>
 
 ![Mapa da empatia - Conceição](img/conceicao-mapa-empatia.png)
-<br>
+<br><br><br>
 <div style="display: flex; align-items: flex-start;">
 
   <div style="flex-shrink: 0; margin-right: 20px;">
@@ -231,21 +233,22 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 </div>
 
 ![Mapa da empatia - Pedro](img/pedro-mapa-empatia.png)
-<br>
+<br><br><br>
 
 **3.2 Histórias de Usuários** 
 
 | **Eu Como** | **Quero/Preciso**  | **Para** |
 | -------- | -------- | -------- |
-| **Usuário idoso (Conceição)**  | Receber sugestões simples e fáceis de entender de práticas saudáveis   | Melhorar minha alimentação sem precisar aprender a usar tecnologias complicadas ou fazer mudanças drásticas na minha rotina  |
-| **Usuário sedentário (Rodrigo)**  | Calcular minha Taxa Metabólica Basal (TMB) após preencher minhas informações de gênero, idade, peso e altura  | Poder ajustar minha alimentação para perda de peso de maneira mais eficiente  |
-| **Usuário jovem (Pedro)**  | Receber orientações sobre a distribuição de macronutrientes  | Seguir uma dieta balanceada que ajude no ganho muscular sem prejudicar a saúde |
-| **Usuário ativo (Juliana)**  | Receber recomendações personalizadas sobre o tempo e intensidade ideais de atividade física   | Maximizar os resultados do meu treinamento sem prejudicar meu corpo  |
-| **Usuário sedentário (Rodrigo)**  | Receber uma sugestão de déficit calórico seguro | Atingir uma perda de peso gradual e saudável  |
-| **Usuário jovem (Pedro)**  | Monitorar meu IMC de forma fácil e entender se estou dentro de uma faixa saudável  | Ajustar minha alimentação e treino de acordo com meu progresso no ganho de peso   |
-| **Usuário ativo (Juliana)**  | Calcular meu Gasto Energético Total (GET)   | Garantir que estou consumindo calorias suficientes para meu objetivo de ganho de peso   |
-| **Usuário do sistema**  | Receber recomendações sobre a intensidade e tempo de atividades físicas   | Garantir que estou praticando exercícios de forma eficaz para atingir meus objetivos de saúde    |
+
+| **Usuário do sistema**  | Obter o meu IMC e saber a classificação correspondente  | Saber se estou no peso ideal |
+| **Usuário do sistema**  | Calcular minha Taxa Metabólica Basal (TMB) | Saber a quantidade de energia necessária para a manutenção das funções vitais do organismo    |
+| **Usuário do sistema**  | Receber orientações sobre a distribuição de macronutrientes (carboidrato, proteína e lipídeo) ideal | Seguir uma dieta equilibrada sem prejuizos a saúde |
+| **Usuário do sistema**  | Receber recomendações personalizadas em relação a quantidade e tipo de exercícios que devo realizar por semana  | Ter um estilo de vida balanceado e saber a recomendação mínima de atividade física de forma personalizada |
+| **Usuário do sistema**  | Calcular meu Gasto Energético Total (GET)  | Saber o meu gasto calórico total diário e quanto consumir para manter o peso ideal  |
+| **Usuário do sistema**  | Receber uma sugestão de déficit calórico seguro caso esteja com a classificação de IMC acima da normalidade | Atingir uma perda de peso gradual e saudável  |
+| **Usuário do sistema**  | Receber recomendações sobre o tempo e intensidade de atividades físicas que devo realizar por semana | Garantir que estou praticando exercícios de forma eficaz para atingir meus objetivos de saúde    |
 | **Usuário do sistema**  | Verificar a quantidade ideal de água para consumo diário com base em meu perfil    | Manter a hidratação adequada diariamente   |
+| **Usuário do sistema**  | Receber orientações nutricionais gerais e fáceis de entender | Melhorar minha alimentação sem precisar aprender a usar tecnologias complicadas ou fazer mudanças drásticas na minha rotina  |
 
 <br>
 
@@ -254,11 +257,13 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 | ID  | Descrição  | Prioridade (B/M/A)* |
 | -------- | -------- | -------- |
 | RF01  | Exibir formulário para inserção dos dados do usuário  | A  |
+| RF01  | Possibilitar a edição dos campos do formulário | A  |
 | RF02  | Calcular IMC, TMB e GET a partir dos dados preenchidos  | A |
 | RF03  | Orientar quantidade ideal de água que o usuário deve consumir diariamente  | M |
 | RF04  | Recomendar quantidade e tipo de exercícios baseado nos dados inseridos  | M |
 | RF05  | Recomendar distribuição de macronutrientes baseado nos dados inseridos | M |
-| RF06 | Exibir modais de ajuda explicando termos técnicos como FAT, IMC, TMB e GET  | B |
+| RF06  | Realizar orientações nutricionais gerais | M |
+| RF07 | Exibir modais de ajuda explicando termos técnicos como FAT, IMC, TMB e GET  | B |
 
 
 <h7>*B=Baixa, M=Média, A=Alta.</h5> 
