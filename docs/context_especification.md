@@ -279,7 +279,7 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 | RNF03  | Usabilidade - O sistema deve ter um design visual atraente, utilizando uma paleta de cores harmoniosa, tipografia legível e uma interface que promova uma experiência positiva   | M |
 | RNF04  | Compatibilidade - O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Safari, Edge) e suas versões mais recentes  | A |
 | RNF05  | Performance - O sistema deve ser capaz de processar e responder a todas as solicitações dos usuários em até 3 segundos | M |
-| RNF06  | Acessibilidade - O sistema deve prover ferramentas e/ou funcionalidades que promovam uma experiência inclusiva para usuários com deficiencias audiovisuais, por exemplo, alteração de tamanho de fonte, leitura de texto em áudio, transcrição em libras, entre outras | M |
+| RNF06  | Acessibilidade - O sistema deve prover ferramentas e/ou funcionalidades que promovam uma experiência inclusiva para usuários com deficiências audiovisuais, por exemplo, alteração de tamanho de fonte, leitura de texto em áudio, transcrição em libras, entre outras | M |
 | RNF07  | Acessibilidade - O sistema deve suportar a tradução do texto em pelo menos três línguas diferentes. Ex: pt-br, en-us, espanhol | B |
 
 <h7>*B=Baixa, M=Média, A=Alta.</h5>
