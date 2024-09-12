@@ -301,9 +301,9 @@ Este projeto tem como principal objetivo desenvolver uma aplicação web intuiti
 
 **4 REFERÊNCIAS** 
 
-INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATISTICA. **Pesquisa nacional de saúde 2019**: atenção primária à saúde e  informações antropométricas: Brasil. Rio de Janeiro: IBGE, 2020. 57 p. 
-
 FRANÇA, Fábio. **Públicos: como identificá-los em uma nova visão estratégica**. São Paulo: Summus Editorial, 2004. 
+
+INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATISTICA. **Pesquisa nacional de saúde 2019**: atenção primária à saúde e  informações antropométricas: Brasil. Rio de Janeiro: IBGE, 2020. 57 p. 
 
 MAROCOLO, Moacir; MEIRELES, Anderson; SOUZA, Hiago Leandro Rodrigues de; MOTA, Gustavo Ribeiro; ORANCHUK, Dustin Jay; ARRIEL, Rhaí André; LEITE, Laura Hora Rios. **Is social media spreading misinformation on exercise and health in Brazil?** International Journal of Environmental Research and Public Health, v. 18, n. 22, p. 11914, 2021. 
 
