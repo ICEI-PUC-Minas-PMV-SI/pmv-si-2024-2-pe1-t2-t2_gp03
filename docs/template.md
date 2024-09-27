@@ -130,7 +130,7 @@ A Inter foi escolhida para o corpo do texto devido à sua legibilidade e versati
 
 - Inter: Utilizada no corpo do texto, em descrições, instruções e qualquer conteúdo detalhado. Sua função é facilitar a leitura e manter a consistência em textos informativos, garantindo que o usuário tenha uma experiência fluida e sem distrações.
 
-![Tipografia](img/typography.jpg)
+![Tipografia](img/typography.JPG)
 
 ## 5. Iconografia
 
