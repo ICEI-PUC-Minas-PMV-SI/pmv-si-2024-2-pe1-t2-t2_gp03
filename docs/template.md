@@ -31,14 +31,18 @@ Belo Horizonte
 
 ## SUMÁRIO
 
-1. [Template padrão](#template-padrão)
-2. [Design](#design)  
-   2.1. [Landpage (Página Inicial)](#landpage-página-inicial)  
-   2.2. [Página de Login/Cadastro](#página-de-logincadastro)  
-   2.3. [Página Principal](#página-principal)
-3. [Cores](#cores)
-4. [Tipografia](#tipografia)
-5. [Iconografia](#iconografia)
+1. Template padrão
+2. Design
+
+   2.1. Landpage (Página Inicial)
+
+   2.2. Página de Login/Cadastro
+ 
+   2.3. Página Principal
+
+3. Cores
+4. Tipografia
+5. Iconografia
 
 
 
@@ -136,4 +140,4 @@ A Inter foi escolhida para o corpo do texto devido à sua legibilidade e versati
 
 A aplicação MacroFit utiliza a biblioteca Lucid Icons para garantir que os ícones sejam claros, modernos e intuitivos, complementando a interface com símbolos que facilitam a navegação e comunicação visual.
 
-![iconofrafia](img/icons.jpg)
+![iconofrafia](img/icons.JPG)
