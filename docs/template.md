@@ -52,6 +52,8 @@ Belo Horizonte
 
 O layout padrão desenvolvido para o projeto da aplicação Macrofit foi projetado com base nos princípios de funcionalidade, identidade visual coerente e responsividade. Ele será aplicado em todas as páginas, garantindo uma experiência consistente e intuitiva para os usuários. Neste projeto, buscamos criar uma interface que promova uma navegação fluida e eficaz, com foco na usabilidade e na estética, considerando aspectos como paleta de cores, tipografia, espaçamento e ícones que reforçam a temática de saúde e bem-estar.
 
+Caso deseje visualizar nosso template, dentro deste repositório acesse a pasta `template`, onde terá o código fonte HTML.
+
 ## 2. Design
 
 A aplicação MacroFit foi projetada com foco na simplicidade e na facilidade de navegação, dividida em três principais layouts: a página inicial (landpage), a página de login/cadastro e a página principal do usuário. Cada uma dessas páginas segue um design coerente com a identidade visual da aplicação, garantindo uma experiência agradável e intuitiva.
@@ -141,3 +143,23 @@ A Inter foi escolhida para o corpo do texto devido à sua legibilidade e versati
 A aplicação MacroFit utiliza a biblioteca Lucid Icons para garantir que os ícones sejam claros, modernos e intuitivos, complementando a interface com símbolos que facilitam a navegação e comunicação visual.
 
 ![iconofrafia](img/icons.JPG)
+
+
+## 6. Userflow
+
+A aplicação possui um fluxo de usuário com o objetivo de ser o mais simplificado possível, para que qualquer uma de nossas personas consiga utilizar o site de maneira fluída e intuitiva.
+
+![Fluxo de usuário](img/userflow.png)
+
+## 7. Apresentação do protótipo
+
+Abaixo trazemos algumas imagens da aplicação, para ver mais da prototipação, como nosso modo escuro e a responsividade em diferentes tamanhos de tela, acesse o nosso figma no link [MacroFit - Prototipação](https://www.figma.com/design/5UiSKasSPia0N3EupCNUuS/MacroFit?node-id=0-1&t=6HxRYzrOuZfZ7ayz-1) .
+
+![Landing Page](img/landing-page.png)
+![Cadastre-se](img/register.png)
+![Login](img/login.png)
+![Perfil](img/profile.png)
+![Resultados](img/results.png)
+
+
+

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+  <title>Meu Site</title>
+  <!-- Estilos convertidos do Tailwind CSS para CSS puro -->
+  <style>
+    /* Configurações globais */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      width: 100%;
+      height: 100%;
+    }
+
+    .anton-sc-regular {
+      font-family: "Anton SC", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    /* Estilos convertidos */
+    .w-screen {
+      width: 100vw;
+    }
+
+    .h-screen {
+      height: 100vh;
+    }
+
+    .flex {
+      display: flex;
+    }
+
+    .gap-0 {
+      gap: 0;
+    }
+
+    .p-\[58px\] {
+      padding: 58px;
+    }
+
+    .bg-\[\#00916E\] {
+      background-color: #00916E;
+    }
+
+    .flex-col {
+      flex-direction: column;
+    }
+
+    .h-full {
+      height: 100%;
+    }
+
+    .items-center {
+      align-items: center;
+    }
+
+    .w-\[310px\] {
+      width: 310px;
+    }
+
+    .flex-1 {
+      flex: 1;
+    }
+
+    .pt-\[72px\] {
+      padding-top: 72px;
+    }
+
+    .gap-6 {
+      gap: 1.5rem; /* 24px */
+    }
+
+    .w-full {
+      width: 100%;
+    }
+
+    .bg-white {
+      background-color: white;
+    }
+
+    .rounded-br-\[32px\] {
+      border-bottom-right-radius: 32px;
+    }
+
+    .h-6 {
+      height: 1.5rem; /* 24px */
+    }
+
+    .p-4 {
+      padding: 1rem; /* 16px */
+    }
+
+    .rounded-s-\[24px\] {
+      border-top-left-radius: 24px;
+      border-bottom-left-radius: 24px;
+    }
+
+    .text-\[\#00916E\] {
+      color: #00916E;
+    }
+
+    .pb-6 {
+      padding-bottom: 24px;
+    }
+
+    .text-\[24px\] {
+      font-size: 24px;
+    }
+
+    .text-white {
+      color: white;
+    }
+    .gap-4 {
+      gap: 16px;
+    }
+
+    .rounded-tr-\[32px\] {
+      border-top-right-radius: 32px;
+    }
+
+    .rounded-xl {
+      border-radius: 0.75rem; /* 12px */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="w-screen h-screen flex gap-0 p-[58px] bg-[#00916E]">
+    <aside class="flex flex-col h-full items-center w-[310px]">
+      <img src="./logo.svg" />
+      <div class="flex flex-col flex-1 pt-[72px] gap-6 w-full">
+        <div class="flex flex-col bg-white">
+          <span class="bg-[#00916E] rounded-br-[32px] w-full h-6"></span>
+          <div class="bg-[#00916E] w-full">
+            <div class="flex items-center gap-4 p-4 rounded-s-[24px] bg-white">
+              <img src="./profile.svg" />
+              <p class="text-[#00916E] text-[24px] anton-sc-regular">PERFIL</p>
+            </div>
+          </div>
+          <div class="bg-[#00916E] rounded-tr-[32px] w-full h-6"></div>
+        </div>
+
+        <div class="flex items-center gap-4 p-4 rounded-s-[24px]">
+          <img src="./results.svg" />
+          <p class="text-white text-[24px] anton-sc-regular">RESULTADOS</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-4 p-4 w-full rounded-s-[24px] pb-6">
+        <img src="./logout.svg" />
+        <p class="text-white text-[24px] anton-sc-regular">SAIR</p>
+      </div>
+    </aside>
+    <div class="flex-1 bg-white rounded-xl"></div>
+  </div>
+</body>
+
+</html>
