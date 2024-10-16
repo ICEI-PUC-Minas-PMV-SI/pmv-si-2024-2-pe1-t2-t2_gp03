@@ -1,19 +1,19 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizadas no desenvolvimento do trabalho.
+FRANÇA, Fábio. **Públicos: como identificá-los em uma nova visão estratégica**. São Paulo: Summus Editorial, 2004. 
 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/referencias/)
+INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATISTICA. **Pesquisa nacional de saúde 2019**: atenção primária à saúde e  informações antropométricas: Brasil. Rio de Janeiro: IBGE, 2020. 57 p. 
 
-Exemplos de referências bibliográficas:
+MAROCOLO, Moacir; MEIRELES, Anderson; SOUZA, Hiago Leandro Rodrigues de; MOTA, Gustavo Ribeiro; ORANCHUK, Dustin Jay; ARRIEL, Rhaí André; LEITE, Laura Hora Rios. **Is social media spreading misinformation on exercise and health in Brazil?** International Journal of Environmental Research and Public Health, v. 18, n. 22, p. 11914, 2021. 
 
-**[1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
+ROSE,  Taylor.;  BARKER,  Mary.;  JACOB,  Chandni  Maria.;  MORRISON,  Leanne; LAWRENCE, Wendy; STROMMER, Sofia; VOGEL, Christina; WOODS-TOWNSEND, Kathryn; FARRELL, David; INSKIP, Hazel; BAIRD, Janis. **A systematic review of digital  interventions  for  improving  the  diet  and  physical  activity  behaviors  of adolescents**. Journal of Adolescent Health, 2017. p. 1-9. 
 
-**[2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
+SANGRA, Albert.;GONZALEZ-SANMAMED, Mercedes. **The role of information and communication technologies in improving teaching and learning processes in primary and secondary schools**. Research in Learning Technology, v. 18, p. 207–220, 2010. 
 
-**[3]** - _CORMEN, Thomas H. et al. **Algoritmos: teoria e prática**. Rio de Janeiro, RJ: Elsevier, Campus, c2012. xvi, 926 p. ISBN 9788535236996._
+SILVA, Paula; ARAUJO, Rita; LOPES, Felisbela; RAY, Sumantra. **Nutrition and food literacy:** framing the challenges to health communication. Nutrients, v. 15, n. 22, p. 4708, 2023. 
 
-**[4]** - _SUTHERLAND, Jeffrey Victor. **Scrum: a arte de fazer o dobro do trabalho na metade do tempo**. 2. ed. rev. São Paulo, SP: Leya, 2016. 236, [4] p. ISBN 9788544104514._
+TALLON, José Maria; DIAS, Raquel Saavedra; COSTA, Aldo Matos; NARCISO, Janine; BARROS, Ana; SILVA, António José. **Pilot evaluation of an interactive multimedia platform to provide nutrition education to Portuguese adolescents.** European Journal of Public Health, Oxford, v. 30, n. 2, p. 353-357, 2020. 
 
-**[5]** - _RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial**. Rio de Janeiro: Elsevier, c2013. xxi, 988 p. ISBN 9788535237016._
+VASCONCELOS, Catarina; COSTA, Renato Lopes; DIAS, Álvaro Lopes; PEREIRA, Leandro;  SANTOS,  José  Pedro.  **Online  influencers:**  healthy  food  or  fake  news. International Journal of Internet Marketing and Advertising, v. 15, n. 2, p. 149-175, 8 abr. 2021. 
 
+WORLD  HEALTH  ORGANIZATION.  **Noncommunicable  diseases.**  WHO,  2023. Disponível  em: [ https://www.who.int/news-room/fact-sheets/detail/noncommunicable- diseases.](https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases) Acesso em: 01 set. 2024. 

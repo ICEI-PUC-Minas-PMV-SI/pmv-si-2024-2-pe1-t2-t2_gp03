@@ -1,91 +1,120 @@
-# Especificações do Projeto
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto.
-
-Caso deseje atribuir uma imagem a sua persona, utilize o site https://thispersondoesnotexist.com/
+# ESPECIFICAÇÕES DO PROJETO 
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+<img src="img/persona1.png" alt="Rodrigo,  41  anos" style="width:180px; float: right">
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+### Rodrigo, 41 anos
+
+- **Perfil:** Rodrigo é um gerente de vendas que passa a maior parte do dia sentado em frente ao computador. Com uma rotina agitada de trabalho e pouca atividade física, ele se encontra acima do peso. Apesar de sua condição de saúde, Rodrigo não teve grandes problemas médicos até agora, mas recentemente começou a se preocupar com seu bem-estar, especialmente depois que amigos comentaram sobre os riscos da obesidade. Ele não tem conhecimento aprofundado sobre nutrição e dietas, e, por conta disso, já tentou várias vezes iniciar dietas por conta própria, mas sem sucesso. A pressão e o estresse do trabalho muitas vezes o levam a comer por impulso.
+
+- **Objetivo:** Perder peso e adotar um estilo de vida mais saudável, equilibrando alimentação com uma rotina de exercícios físicos moderados.
+
+- **Motivações:** Desejo de melhorar sua saúde e evitar problemas futuros, como diabetes ou doenças cardíacas. Quer se sentir mais confiante e ter mais energia para suas atividades do dia a dia.
+
+- **Frustrações:** Falta de tempo e conhecimento para elaborar uma dieta saudável; dificuldade em manter a motivação e disciplina; medo de que as dietas restritivas o deixem sem energia no trabalho.
+
+  ![rodrigo-mapa-empatia](img/rodrigo-mapa-empatia.png)
+___
+
+<img src="img/persona2.png" alt="Juliana,  27  anos" style="width:180px;float:right">
+
+### Juliana,  27  anos
+
+- **Perfil:** Juliana é uma arquiteta  ativa e apaixonada por esportes como corrida e natação. Apesar de sua intensa rotina de exercícios, ela tem dificuldades para ganhar peso e alcançar o aumento de massa  muscular  desejado.  Com  um  metabolismo  acelerado,  ela sente  que  o  que  consome  não  é  o  suficiente  para  atingir  seus objetivos de composição corporal. Juliana tem conhecimento básico sobre alimentação esportiva, mas não consegue encontrar uma solução que funcione para ela</p>
+
+- **Objetivo:** Ganhar peso de forma saudável e aumentar sua massa muscular, enquanto mantém o desempenho esportivo. 
+
+- **Motivações:** Desejo de melhorar sua performance esportiva e atingir uma forma física que a faça se sentir mais forte e saudável. 
+
+- **Frustrações:** Não entender por que, mesmo comendo bem e praticando exercícios, não consegue ganhar peso; falta de tempo para planejar refeições adequadas; medo de consumir alimentos inadequados e prejudicar seu rendimento nos esportes. s
+
+  ![juliana-mapa-empatia](img/juliana-mapa-empatia.png)
+___
+
+<img src="img/persona3.png" alt="Conceição, 75 anos" style="width:180px;float:right">
+
+### Conceição,  75  anos
+
+- **Perfil:** Conceição é uma senhora aposentada que vive sozinha e cuida da casa e da sua própria alimentação. Apesar de estar no peso ideal, sua rotina é completamente sedentária e ela tem resistência  a  praticar  atividades  físicas.  Conceição  se preocupa  com  sua  saúde,  especialmente  por  sua  idade avançada e algumas recomendações médicas de melhorar a alimentação para prevenir problemas de ossos e articulações. Ela possui uma relação complicada com a tecnologia, o que a torna insegura ao usar aplicativos ou ferramentas digitais.</p>
+
+- **Objetivo:** Manter uma alimentação saudável que atenda suas necessidades nutricionais sem a necessidade de grandes mudanças tecnológicas ou exercícios intensos. 
+
+- **Motivações:**  Prevenir  problemas  de  saúde  relacionados  ao  envelhecimento, como osteoporose, diabetes e doenças cardiovasculares. Deseja manter-se independente e evitar complicações médicas no futuro. 
+
+- **Frustrações:** Dificuldade de usar tecnologia; medo de não conseguir se adaptar a uma nova dieta; não gosta de atividades físicas e tem pouca disposição para se exercitar. 
+  
+  ![conceicao-mapa-empatia](img/conceicao-mapa-empatia.png)
+___
+
+<img src="img/persona4.png" alt="Pedro,  18  anos" style="width:180px;float:right">
+
+### Pedro, 18 anos
+- **Perfil:**  Pedro  é  um  estudante  universitário  que  está começando a praticar musculação após anos de sedentarismo. Ele sempre  foi  magro  e,  recentemente,  começou  a  se preocupar com sua aparência e saúde física. Pedro tem pouco conhecimento sobre nutrição e exercícios, mas está disposto a aprender mais para ganhar massa muscular e se sentir mais confiante em seu corpo. Com a rotina de estudos e algumas atividades sociais, ele encontra dificuldade em manter uma alimentação regrada e equilibrada.
+
+- **Objetivo:** Ganhar massa muscular de forma saudável e eficiente, combinando musculação e uma alimentação adequada. 
+
+- **Motivações:** Melhorar sua autoestima, sentir-se mais confiante e forte fisicamente. Deseja criar uma rotina saudável que possa manter a longo prazo.
+
+- **Frustrações:** Dificuldade de encontrar tempo para planejar as refeições corretas; falta de conhecimento sobre o que deve comer para ganhar peso; medo de não alcançar seus objetivos mesmo com esforço. 
+
+  ![pedro-mapa-empatia](img/pedro-mapa-empatia.png)
 
 ## Histórias de Usuários
-
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
-
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
-## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
-
-### Requisitos Funcionais
-
-|ID    | Descrição do Requisito  | Prioridade | 
-|------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA |  
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | MÉDIA | 
+| **Eu Como** | **Quero/Preciso**  | **Para** |
+| -------- | -------- | -------- |
+| **Usuário do sistema**  | Obter o meu IMC e saber a classificação correspondente  | Saber se estou no peso ideal |
+| **Usuário do sistema**  | Calcular minha Taxa Metabólica Basal (TMB) | Saber a quantidade de energia necessária para a manutenção das funções vitais do organismo    |
+| **Usuário do sistema**  | Receber orientações sobre a distribuição de macronutrientes (carboidrato, proteína e lipídeo) ideal | Seguir uma dieta equilibrada sem prejuizos a saúde |
+| **Usuário do sistema**  | Receber recomendações personalizadas em relação a quantidade e tipo de exercícios que devo realizar por semana  | Ter um estilo de vida balanceado e saber a recomendação mínima de atividade física de forma personalizada |
+| **Usuário do sistema**  | Calcular meu Gasto Energético Total (GET)  | Saber o meu gasto calórico total diário e quanto consumir para manter o peso ideal  |
+| **Usuário do sistema**  | Receber uma sugestão de déficit calórico seguro caso esteja com a classificação de IMC acima da normalidade | Atingir uma perda de peso gradual e saudável  |
+| **Usuário do sistema**  | Receber recomendações sobre o tempo e intensidade de atividades físicas que devo realizar por semana | Garantir que estou praticando exercícios de forma eficaz para atingir meus objetivos de saúde    |
+| **Usuário do sistema**  | Verificar a quantidade ideal de água para consumo diário com base em meu perfil  | Manter a hidratação adequada diariamente   |
+| **Usuário do sistema**  | Receber orientações nutricionais gerais e fáceis de entender | Melhorar minha alimentação sem precisar aprender a usar tecnologias complicadas ou fazer mudanças drásticas na minha rotina  |
 
 
-### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
-## Restrições
-
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+## Requisitos Funcionais
+| ID  | Descrição  | Prioridade (B/M/A)* |
+| -------- | -------- | -------- |
+| RF01  | Exibir formulário para inserção dos dados do usuário  | A  |
+| RF01  | Possibilitar a edição dos campos do formulário | A  |
+| RF02  | Calcular IMC, TMB e GET a partir dos dados preenchidos  | A |
+| RF03  | Orientar quantidade ideal de água que o usuário deve consumir diariamente  | M |
+| RF04  | Recomendar quantidade e tipo de exercícios baseado nos dados inseridos  | M |
+| RF05  | Recomendar distribuição de macronutrientes baseado nos dados inseridos | M |
+| RF06  | Realizar orientações nutricionais gerais | M |
+| RF07 | Exibir modais de ajuda explicando termos técnicos como FAT, IMC, TMB e GET  | B |
+| RF08 | Ter persistência local dos dados informados, sendo possível restaurar informações do armazenamento local, cache ou cookies  | M |
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
+*B=Baixa, M=Média, A=Alta.<
 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+
+
+## Requisitos Não-Funcionais
+| ID  | Descrição  | Prioridade (B/M/A)* |
+| -------- | -------- | -------- |
+| RNF01 | Usabilidade - A interface do usuário deve ser intuitiva, sendo fácil de operar mesmo para pessoas sem familiaridade com tecnologia  | A  |
+| RNF02  | Usabilidade - O sistema deve ser responsivo, garantindo que a interface do usuário se adapte de forma fluida e sem distorções a qualquer tamanho de tela   | M |
+| RNF03  | Usabilidade - O sistema deve ter um design visual atraente, utilizando uma paleta de cores harmoniosa, tipografia legível e uma interface que promova uma experiência positiva   | M |
+| RNF04  | Compatibilidade - O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Safari, Edge) e suas versões mais recentes  | A |
+| RNF05  | Performance - O sistema deve ser capaz de processar e responder a todas as solicitações dos usuários em até 3 segundos | M |
+| RNF06  | Acessibilidade - O sistema deve prover ferramentas e/ou funcionalidades que promovam uma experiência inclusiva para usuários com deficiências audiovisuais, por exemplo, alteração de tamanho de fonte, leitura de texto em áudio, transcrição em libras, entre outras | M |
+| RNF07  | Acessibilidade - O sistema deve suportar a tradução do texto em pelo menos três línguas diferentes. Ex: pt-br, en-us, espanhol | B |
+
+*B=Baixa, M=Média, A=Alta.
+
+
+
+## Restrições 
+| ID | Descrição |
+| -------- | -------- | 
+| 01 | Limitação na precisão dos dados inseridos pelo usuário, que pode impactar a confiabilidade das recomendações realizadas pelo aplicativo  | 
+| 02 | Limitação quanto ao compartilhamento de informações entre usuários, que é dificultado por conta do armazenamento local de dados  | 
+| 03 | Limitação de alguns cálculos e recomendações com base em localização geográfica e idioma, que podem impactar a relevância e eficácia das recomendações |
+| 04  | Limitação de possíveis recomendações para o usuário, devido a ausência de um back-end que permitiria o armazenamento do histórico do usuário em longo prazo, enriquecendo a efetividade das recomendações  |
+| 05 | Limitação de funcionalidades restritas ao que os navegadores são capazes de processar  |
+| 06 | Limitação de funcionalidades restritas às tecnologias disponíveis e permitidas à realização deste projeto  |
