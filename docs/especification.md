@@ -79,15 +79,17 @@ ___
 ## Requisitos Funcionais
 | ID  | Descrição  | Prioridade (B/M/A)* |
 | -------- | -------- | -------- |
-| RF01  | Exibir formulário para inserção dos dados do usuário  | A  |
-| RF01  | Possibilitar a edição dos campos do formulário | A  |
-| RF02  | Calcular IMC, TMB e GET a partir dos dados preenchidos  | A |
-| RF03  | Orientar quantidade ideal de água que o usuário deve consumir diariamente  | M |
-| RF04  | Recomendar quantidade e tipo de exercícios baseado nos dados inseridos  | M |
-| RF05  | Recomendar distribuição de macronutrientes baseado nos dados inseridos | M |
-| RF06  | Realizar orientações nutricionais gerais | M |
-| RF07 | Exibir modais de ajuda explicando termos técnicos como FAT, IMC, TMB e GET  | B |
-| RF08 | Ter persistência local dos dados informados, sendo possível restaurar informações do armazenamento local, cache ou cookies  | M |
+| RF01  | Cadastrar usuário na plataforma  | A  |
+| RF02  | Permitir que um usuário cadastrado se autentique  | A  |
+| RF03  | Exibir formulário para inserção dos dados do usuário  | A  |
+| RF04  | Possibilitar a edição dos campos do formulário | A  |
+| RF05  | Calcular IMC, TMB e GET a partir dos dados preenchidos  | A |
+| RF06  | Orientar quantidade ideal de água que o usuário deve consumir diariamente  | M |
+| RF07  | Recomendar quantidade e tipo de exercícios baseado nos dados inseridos  | M |
+| RF08  | Recomendar distribuição de macronutrientes baseado nos dados inseridos | M |
+| RF09  | Realizar orientações nutricionais gerais | M |
+| RF10 | Exibir modais de ajuda explicando termos técnicos como FAT, IMC, TMB e GET  | B |
+| RF11 | Ter persistência dos dados informados e gerados, associando ao usuário autenticado   | M |
 
 
 *B=Baixa, M=Média, A=Alta.<
@@ -103,7 +105,6 @@ ___
 | RNF04  | Compatibilidade - O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Safari, Edge) e suas versões mais recentes  | A |
 | RNF05  | Performance - O sistema deve ser capaz de processar e responder a todas as solicitações dos usuários em até 3 segundos | M |
 | RNF06  | Acessibilidade - O sistema deve prover ferramentas e/ou funcionalidades que promovam uma experiência inclusiva para usuários com deficiências audiovisuais, por exemplo, alteração de tamanho de fonte, leitura de texto em áudio, transcrição em libras, entre outras | M |
-| RNF07  | Acessibilidade - O sistema deve suportar a tradução do texto em pelo menos três línguas diferentes. Ex: pt-br, en-us, espanhol | B |
 
 *B=Baixa, M=Média, A=Alta.
 
@@ -113,8 +114,5 @@ ___
 | ID | Descrição |
 | -------- | -------- | 
 | 01 | Limitação na precisão dos dados inseridos pelo usuário, que pode impactar a confiabilidade das recomendações realizadas pelo aplicativo  | 
-| 02 | Limitação quanto ao compartilhamento de informações entre usuários, que é dificultado por conta do armazenamento local de dados  | 
-| 03 | Limitação de alguns cálculos e recomendações com base em localização geográfica e idioma, que podem impactar a relevância e eficácia das recomendações |
-| 04  | Limitação de possíveis recomendações para o usuário, devido a ausência de um back-end que permitiria o armazenamento do histórico do usuário em longo prazo, enriquecendo a efetividade das recomendações  |
-| 05 | Limitação de funcionalidades restritas ao que os navegadores são capazes de processar  |
-| 06 | Limitação de funcionalidades restritas às tecnologias disponíveis e permitidas à realização deste projeto  |
+| 02 | Limitação de alguns cálculos e recomendações com base em localização geográfica e idioma, que podem impactar a relevância e eficácia das recomendações |
+| 03 | Limitação de funcionalidades restritas às tecnologias disponíveis e permitidas à realização deste projeto  |
