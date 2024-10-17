@@ -1,54 +1,59 @@
-# Introdução
+# INTRODUÇÃO
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+## Contexto
+Atualmente, vivemos em um mundo interconectado pela tecnologia, onde o acesso a informações relacionadas a alimentação ocorre de maneira rápida e contínua. Esse cenário globalizado traz tanto benefícios quanto desafios. Embora a agilidade na obtenção de informações úteis seja impressionante, a mesma rapidez facilita a disseminação de dados incorretos ou enganosos. Ferramentas como motores de busca e redes sociais têm tornado a partilha de  informações  sobre  alimentação  mais  fácil,  mas  também  descontrolada (Vasconcelos et al., 2021). 
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
-
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+Nesse ambiente complexo e dinâmico, há uma demanda crescente por soluções tecnológicas  que  não  apenas  facilitem  o  acesso  a  informações  nutricionais,  mas  que também garantam a qualidade e a confiabilidade desses dados. Esse cenário representa uma oportunidade  significativa  para  o  desenvolvimento  de  inovações  tecnológicas,  como aplicativos e recursos online, que possam fornecer informações nutricionais baseadas em evidências de forma acessível e personalizada, a fim de combater a desinformação e contribuir para uma gestão mais consciente da alimentação (Silva et al., 2023). 
 
 ## Problema
+A  desinformação  sobre  saúde  através  da  internet  é  preocupantemente  alta, especialmente  nas  redes  sociais,  onde  influenciadores  frequentemente  disseminam informações de baixa qualidade, falsas ou enganosas. No Brasil, estima-se que apenas 2,7% das informações postadas sobre saúde por influenciadores brasileiros de destaque  não sejam respaldadas por referências científicas, o que contribui significativamente para a propagação de desinformação para um vasto público (Marocolo et al., 2021).
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, **não** é a hora de comentar sobre a solução/aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
-## Objetivos
-
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Este problema é especialmente crítico no campo da nutrição, que é um dos temas de saúde mais populares nas mídias digitais. A falta de literacia alimentar, exacerbada por essa disseminação de informações incorretas, representa um desafio crescente que afeta de forma prejudicial a saúde pública em escala global (Vasconcelos et al., 2021; Silva et al., 2023).  
 
 ## Justificativa
+O panorama epidemiológico da obesidade no Brasil, conforme a Pesquisa Nacional de Saúde (PNS) de 2019, revela uma situação alarmante, 1 em cada 4 brasileiros com mais de 18 anos é classificado com obesidade, totalizando cerca de 41,2 milhões de pessoas, e 60,3% da população adulta estão com excesso de peso, somando aproximadamente 96 milhões de pessoas. Em nível global, as Doenças Crônicas Não-Transmissíveis (DCNTs), como doenças cardiovasculares, câncer e diabetes, são responsáveis por sete das dez principais causas de morte, resultando em 41 milhões de óbitos anuais, o que equivale a 74%  de  todas  as  mortes  ocorridas,  conforme  as  Estimativas  Globais  de  Saúde  da Organização Mundial da Saúde (Instituto Brasileiro de Geografia e Estatística [IBGE], 2020; World Health Organization [WHO], 2023). 
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A alimentação desequilibrada é um dos principais fatores que contribuem para o desenvolvimento da obesidade e das DCNTs. Esse problema é frequentemente associado à falta de literacia em relação a nutrição, uma vez que os conhecimentos nutricionais têm um  impacto  significativo  no  comportamento  alimentar  das  pessoas  (World  Health Organization [WHO], 2023; Silva et al., 2023; Tallon et al., 2020).  
 
-Lembre-se de pesquisar e utilizar números que justifiquem por que é importante que tal problema seja resolvido ou que mostrem o impacto do problema na vida das pessoas.
+Nesse  contexto,  ferramentas  digitais  de  fácil  acesso,  como  aplicativos, desempenham um papel crucial na comunicação eficiente e disseminação de informações, especialmente ao atingir um público amplo (Sangra & Gonzalez-Sanmamed, 2010; Rose et al., 2017; Silva et al., 2023).  
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+No campo da educação nutricional, estas tecnologias não apenas capacitam os usuários a tomarem decisões nutricionais mais conscientes e informadas, como também combatem  a  prevalente  propagação  de  desinformação.  Além  disso,  a  popularidade crescente de aplicativos voltados para a saúde reforça seu potencial na promoção de hábitos alimentares  saudáveis,  contribuindo  de  forma  significativa  para  a  melhoria  da  saúde pública (Sangra & Gonzalez-Sanmamed, 2010; Rose et al., 2017; Silva et al., 2023). 
 
 ## Público-Alvo
+O público-alvo desta aplicação web inclui indivíduos de diversas idades, desde a adolescência até a terceira idade, e não requer conhecimento prévio em nutrição. O público abrange tanto pessoas sedentárias quanto aquelas fisicamente ativas, que buscam obter informações fundamentadas  em  relação  ao  seu  estado  nutricional  e  necessidades energéticas, além de gerenciar sua alimentação de maneira autônoma, sem a necessidade de consultar um profissional especializado. 
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+## Mapa de Stakeholders
+Segundo França (2004), o mapeamento de stakeholders permite identificar os públicos com os quais a organização se relaciona, compreender o tipo de relação estabelecida e as expectativas geradas, facilitando a criação de estratégias de aproximação para públicos prioritários. 
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+### Grau Dependência
+Esses são os stakeholders essenciais para a sobrevivência e operação da aplicação. A empresa depende diretamente deles para funcionar corretamente.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+- Clientes/Usuários  Finais:  Indivíduos  que  utilizam  a  aplicação,  fornecendo dados e feedback. Eles são essenciais para a viabilidade da aplicação, pois são os consumidores diretos dos serviços oferecidos.
+- Equipe  de  Desenvolvimento  e  Manutenção:  Programadores,  designers  e engenheiros de software responsáveis por criar, atualizar e manter a aplicação. Sem eles, a aplicação não pode evoluir ou ser corrigida.
+
+
+### Grau Participação
+Stakeholders  que  não  são  essenciais  para  a  sobrevivência  da  aplicação,  mas colaboram para o seu crescimento e melhoria. 
+
+- Consultorias  de  Saúde  e  Nutrição:  Empresas  ou  profissionais  que  podem fornecer  conselhos  ou  informações  relevantes  para  o  desenvolvimento  de funcionalidades  da  aplicação,  melhorando  a  qualidade  das  recomendações nutricionais.
+- Profissionais  de  Saúde:  Embora  não dependam  diretamente  da  aplicação,  podem  recomendá-la  a  seus  clientes, ajudando a expandir seu uso. Seu feedback pode melhorar a adequação das recomendações nutricionais oferecidas.
+- Comunidade  Local  e  Parceiros  Institucionais:  Organizações  que  apoiam iniciativas de saúde e bem-estar. Eles podem promover a aplicação em suas comunidades e parcerias, ajudando a aumentar o impacto social do produto.
+
+<br>
+
+#  OBJETIVOS
+
+## Objetivo Geral
+Este projeto tem como principal objetivo desenvolver uma aplicação web intuitiva para fornecer informações sobre o estado nutricional e necessidades calóricas dos usuários, além de realizar recomendações nutricionais gerais com base nas características individuais fornecidas,  utilizando  JavaScript  como  linguagem  de  programação  e  Bootstrap  como framework. 
+
+
+## Objetivos Específicos
+- Permitir que o usuário preencha seu perfil, incluindo informações sobre gênero, idade, peso, altura e Fator de Atividade Física (FAT), a fim de ajustar o cálculo das necessidades calóricas totais. 
+- Calcular o Índice de Massa Corporal (IMC) dos usuários e fornecer a classificação de IMC correspondente, ajudando na compreensão do estado nutricional. 
+- Calcular a Taxa Metabólica Basal (TMB), estimando a quantidade de calorias que o corpo necessita para manter funções vitais em repouso. 
+- Calcular o Gasto Energético Total (GET), fornecendo aos usuários uma estimativa personalizada na quantidade de calorias que devem consumir diariamente para manter seu peso atual. 
+- Fornecer orientações em relação a quantidade ideal de água que o usuário deve consumir diariamente, promovendo uma hidratação adequada 
+- Realizar  recomendações  sobre  a  distribuição  ideal  de  macronutrientes (carboidratos,  proteínas  e  lipídeos),  auxiliando  os  usuários  a  evitar  dietas desequilibradas. 
+- Fornecer orientações personalizadas em relação ao tempo e intensidade ideais de atividade física. 
+- Sugerir  uma  redução  calórica  segura  e  eficaz  caso  o  usuário  esteja  acima  da classificação de IMC recomendada, garantindo que o déficit não seja excessivo e respeitando as suas necessidades nutricionais.
+- Realizar orientações nutricionais gerais.
