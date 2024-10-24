@@ -9,62 +9,141 @@
 </head>
 <body>
     <div class="main">
-            <div class="content">
-                <div class="gender-container">
-                    <p class="gender-title anton-sc-regular">
-                        Gênero
+        <div class="content">
+            <!-- first page on mobile -->
+            <div class="general-info mobile-1 tablet-1 desktop">
+                <p class="general-info-title anton-sc-regular">
+                    Informações Gerais
+                </p>
+                <div class="general-info-inputs">
+                    <div class="general-info-input-container">
+                        <img src="./img/icons-profile-dark.svg" alt="">
+                        <input class="general-info-input inter-semibold" placeholder="Nome" type="text">
+                    </div>
+                    <div class="general-info-input-container">
+                        <img src="./img/icons-profile-dark.svg" alt="">
+                        <input class="general-info-input inter-semibold" placeholder="Email" type="email">
+                    </div>
+                    <div class="general-info-input-container">
+                        <img src="./img/icons-profile-dark.svg" alt="">
+                        <input class="general-info-input inter-semibold" placeholder="Senha" type="password">
+                    </div>
+                </div>
+            </div>
+            <div class="theme mobile-1 tablet-1 desktop">
+                <p class="theme-title anton-sc-regular">
+                    Tema
+                </p>
+                <div class="theme-inputs">
+                    <div class="theme-input-container">
+                        <input name="theme" class="theme-input" type="radio"></input>
+                        <p class="inter-medium">Claro</p>
+                    </div>
+                    <div class="theme-input-container">
+                        <input name="theme" class="theme-input" type="radio"></input>
+                        <p class="inter-medium">Escuro</p>
+                    </div>
+                    <div class="theme-input-container">
+                        <input name="theme" class="theme-input" type="radio"></input>
+                        <p class="inter-medium">Sistema</p>
+                    </div>
+                </div>
+            </div>
+            <!-- end first page on mobile -->
+            <!-- second page on mobile -->
+            <div class="gender-container mobile-2 tablet-2 desktop">
+                <p class="gender-title anton-sc-regular">
+                    Gênero
+                </p>
+                <div class="gender-cards">
+                    <div class="gender-card-container">
+                        <img class="gender-card" src="img/preview-4.svg" />
+                    </div>
+                    <div class="gender-card-container">
+                        <img class="gender-card" src="img/preview-5.svg" />
+                    </div>
+                </div>
+            </div>
+            <div class="measures-container mobile-2 tablet-1 desktop">
+                <div class="height-container">
+                    <p class="height-title anton-sc-regular">
+                        Altura
                     </p>
-                    <div class="gender-cards">
-                        <div class="gender-card-container">
-                            <img class="gender-card" src="img/preview-4.svg" />
-                        </div>
-                        <div class="gender-card-container">
-                            <img class="gender-card" src="img/preview-5.svg" />
-                        </div>
+                    <div class="height-cards">
+                        <div class="measure-button"><img class="measure-button-img height-decrease-btn" src="img/icons-minus.svg" style="cursor: pointer;" /></div>
+                        <p class="anton-sc-regular" id="height-display">183cm</p>
+                        <div class="measure-button"><img class="measure-button-img height-increase-btn" src="img/icons-plus.svg" style="cursor: pointer;" /></div>
                     </div>
                 </div>
-                <div class="measures-container">
-                    <div class="height-container">
-                        <p class="height-title anton-sc-regular">
-                            Altura
-                        </p>
-                        <div class="height-cards">
-                            <div class="measure-button"><img class="measure-button-img height-decrease-btn" src="img/icons-13.svg" style="cursor: pointer;" /></div>
-                            <p class="anton-sc-regular" id="height-display">183cm</p>
-                            <div class="measure-button"><img class="measure-button-img height-increase-btn" src="img/icons-14.svg" style="cursor: pointer;" /></div>
-                        </div>
-                    </div>
-                    <div class="weight-container">
-                        <p class="weight-title anton-sc-regular">
-                            Peso
-                        </p>
-                        <div class="weight-cards">
-                            <div class="measure-button"><img class="measure-button-img weight-decrease-btn" src="img/icons-15.svg"  style="cursor: pointer;"/></div>
-                            <p id="weight-display" class="anton-sc-regular">75kg</p>
-                            <div class="measure-button"><img class="measure-button-img weight-increase-btn" src="img/icons-16.svg"   style="cursor: pointer;"/></div>
-                        </div>
-                    </div>
-                </div>
-                <button class="next-page-btn inter-semibold">Avançar <img src="img/icons-profile.svg" alt=""></button>
-            </div>
-            <div class="nav-bar">
-                <div class="nav-bar-pages">
-                    <div class="nav-home">
-                        <img src="img/logo-mini.svg" alt="">
-                    </div>
-                    <div class="nav-profile">
-                        <img src="img/icons-profile-dark.svg" alt="">
-                    </div>
-                    <div class="nav-results">
-                        <img src="img/icons-results.svg" alt="">
-                    </div>
-                </div>
-                <div class="nav-bar-exit">
-                    <div class="nav-exit">
-                        <img src="img/icons-exit.svg" alt="">
+                <div class="weight-container">
+                    <p class="weight-title anton-sc-regular">
+                        Peso
+                    </p>
+                    <div class="weight-cards">
+                        <div class="measure-button"><img class="measure-button-img weight-decrease-btn" src="img/icons-minus.svg"  style="cursor: pointer;"/></div>
+                        <p id="weight-display" class="anton-sc-regular">75kg</p>
+                        <div class="measure-button"><img class="measure-button-img weight-increase-btn" src="img/icons-plus.svg"   style="cursor: pointer;"/></div>
                     </div>
                 </div>
             </div>
+            <!-- end second page on mobile -->
+            <!-- third page on mobile -->
+            <div class="physical-activity mobile-3 tablet-2 desktop">
+                <p class="physical-activity-title anton-sc-regular">Atividade Física</p>
+                <div class="physical-activity-cards">
+                    <div class="physical-activity-card-selected">
+                        <div class="card-header">
+                            <!-- <img src="./img/icons-check.svg" alt=""> -->
+                            <img src="./img/icons-check-highlighted.svg" alt="">
+                            <p class="card-title anton-sc-regular">Muito ativo</p>
+                        </div>
+                        <p class="card-text inter-semibold">Você faz exercício quase todos os dias e adora fazer isso!</p>
+                    </div>
+                    <div class="physical-activity-card">
+                        <div class="card-header">
+                            <img src="./img/icons-check.svg" alt="">
+                            <p class="card-title anton-sc-regular">Ativo</p>
+                        </div>
+                        <p class="card-text inter-semibold">Você faz exercício quase todos os dias e adora fazer isso!</p>
+                    </div>
+                    <div class="physical-activity-card">
+                        <div class="card-header">
+                            <img src="./img/icons-check.svg" alt="">
+                            <p class="card-title anton-sc-regular">Normal</p>
+                        </div>
+                        <p class="card-text inter-semibold">Você quase nunca faz exercícios e não leva jeito para a coisa!</p>
+                    </div>
+                    <div class="physical-activity-card">
+                        <div class="card-header">
+                            <img src="./img/icons-check.svg" alt="">
+                            <p class="card-title anton-sc-regular">Sedentário</p>
+                        </div>
+                        <p class="card-text inter-semibold">Você quase nunca faz exercícios e não leva jeito para a coisa!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- end third page on mobile -->
+            <button class="next-page-btn inter-semibold">Avançar <img src="img/icons-profile.svg" alt=""></button>
+            <!-- <button class="next-page-btn inter-semibold">Gerar Resultados <img src="img/icons-profile.svg" alt=""></button> -->
+        </div>
+        <div class="nav-bar mobile-only">
+            <div class="nav-bar-pages">
+                <div class="nav-home">
+                    <img src="img/logo-mini.svg" alt="">
+                </div>
+                <div class="nav-profile">
+                    <img src="img/icons-profile-dark.svg" alt="">
+                </div>
+                <div class="nav-results">
+                    <img src="img/icons-results.svg" alt="">
+                </div>
+            </div>
+            <div class="nav-bar-exit">
+                <div class="nav-exit">
+                    <img src="img/icons-exit.svg" alt="">
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
