@@ -5,9 +5,9 @@ body {
 .slide {
   display: flex;
   width: 1920px;
- flex-direction: column;
- gap: 15%;
- height: 100vh;
+  flex-direction: column;
+  gap: 15%;
+  height: 100vh;
 }
 
 .slide .div {
@@ -16,35 +16,35 @@ body {
   flex-direction: row;
   height: 900px;
   display: relative;
-  
-
 }
 .slide .overlap {
   display: flex;
   overflow: hidden;
   width: 50%;
-height: 2000px;
+  height: 2000px;
+}
 
-}
 .slide .img {
-width: 2000px;
-height: 2500px;
-position: absolute;
-top: -1000px;
-left: 500px;
+  width: 2000px;
+  height: 2500px;
+  position: absolute;
+  top: -1000px;
+  left: 500px;
 }
+
+
+
 .frame-1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 50%;
   height: 100%;
-  padding:  0  0 0 5%;
+  padding: 0 0 0 5%;
   gap: 32px;
 }
 
 .slide .text-wrapper-1 {
-
   font-family: "Anton SC", Helvetica;
   font-weight: 400;
   color: var(--dark-gray);
@@ -52,7 +52,6 @@ left: 500px;
 }
 
 .slide .text-wrapper-2 {
-
   align-self: stretch;
   opacity: 0.7;
   font-family: var(--inter-20-600-font-family);
@@ -63,7 +62,7 @@ left: 500px;
   line-height: var(--inter-20-600-line-height);
   font-style: var(--inter-20-600-font-style);
 }
-.button{
+.button {
   width: 40%;
   font-family: var(--inter-20-600-font-family);
   font-weight: var(--inter-20-600-font-weight);
@@ -72,15 +71,13 @@ left: 500px;
   border-color: transparent;
   background-color: var(--primary);
   color: white;
-  
 }
 .frame-2 {
   display: flex;
   flex-direction: column;
- gap: 72px;
+  gap: 72px;
   align-items: center;
-  height:fit-content ;
-
+  height: fit-content;
 }
 .slide .CONHE-a-UM-POUCO {
   align-self: stretch;
@@ -125,7 +122,7 @@ left: 500px;
   line-height: var(--inter-20-600-line-height);
   font-style: var(--inter-20-600-font-style);
 }
-.button-2{
+.button-2 {
   width: 70%;
   font-family: var(--inter-20-600-font-family);
   font-weight: var(--inter-20-600-font-weight);
@@ -134,22 +131,19 @@ left: 500px;
   border-color: transparent;
   background-color: var(--secondary);
   color: black;
-  
 }
-.frame-5{
-
+.frame-5 {
   background-color: black;
 }
-.frame-6{
+.frame-6 {
   display: flex;
   position: relative;
   background-color: black;
   flex-direction: column;
-
 }
-.frame-7{
+.frame-7 {
   position: absolute;
-  display: flex; 
+  display: flex;
   width: 100%;
   align-items: center;
   height: 80%;
@@ -170,15 +164,13 @@ left: 500px;
   border-color: transparent;
   padding: 48px;
 }
-.frame-7-5{
+.frame-7-5 {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
-
 }
 
 .slide .text-wrapper-6 {
-
   font-family: "Anton SC", Helvetica;
   font-weight: 400;
   color: var(--dark-gray);
@@ -187,7 +179,7 @@ left: 500px;
   letter-spacing: 0;
   line-height: normal;
 }
- .p {
+.p {
   font-family: var(--inter-16-600-font-family);
   font-weight: var(--inter-16-600-font-weight);
   color: var(--dark-gray);
@@ -197,7 +189,6 @@ left: 500px;
   font-style: var(--inter-16-600-font-style);
 }
 .slide .text-wrapper-7 {
- 
   font-family: var(--ANTON-SC-32-font-family);
   font-weight: var(--ANTON-SC-32-font-weight);
   color: #ffffff;
@@ -245,7 +236,7 @@ left: 500px;
   white-space: nowrap;
   font-style: var(--inter-20-600-font-style);
 }
-.frame-11{
+.frame-11 {
   padding: 40px;
   width: 100%;
 }
