@@ -245,8 +245,8 @@ font-size: 1.5rem;
 
 .gradient-bar {
   width: 75%;
-  height: 16px; /* Defina a altura que desejar */
-  border-radius: 15px; /* Arredonda as bordas */
+  height: 16px; 
+  border-radius: 15px; 
   background: linear-gradient(
     to right,
     #8ae7ff,
