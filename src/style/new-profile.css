@@ -19,6 +19,7 @@
     font-size: 24px;
     justify-content: space-between;
     align-items: center;
+    overflow-y: scroll;
 }
 
 .general-info {
@@ -109,6 +110,11 @@
     justify-content: space-between;
     align-items: center;
     gap: 32px;
+}
+
+.gender-card-container {
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .gender-card-container {
