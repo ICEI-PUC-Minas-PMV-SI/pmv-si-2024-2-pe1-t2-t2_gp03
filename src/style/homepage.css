@@ -5,10 +5,12 @@ body {
 .slide {
   display: flex;
   width: 1920px;
- flex-direction: column;
- gap: 15%;
- height: 100vh;
+  flex-direction: column;
+  gap: 15%;
+  height: 100vh;
 }
+
+
 
 .slide .div {
   width: 100%;
@@ -16,34 +18,37 @@ body {
   flex-direction: row;
   height: 900px;
   display: relative;
-  
+
 
 }
+
 .slide .overlap {
   display: flex;
   overflow: hidden;
   width: 50%;
-height: 2000px;
+  height: 2000px;
 
 }
-.slide .img {
-width: 2000px;
-height: 2500px;
-position: absolute;
-top: -1000px;
-left: 500px;
+
+.img {
+  width: 2000px;
+  height: 2500px;
+  position: absolute;
+  top: -1000px;
+  left: 500px;
 }
+
 .frame-1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 50%;
   height: 100%;
-  padding:  0  0 0 5%;
+  padding: 0 0 0 5%;
   gap: 32px;
 }
 
-.slide .text-wrapper-1 {
+.text-wrapper-1 {
 
   font-family: "Anton SC", Helvetica;
   font-weight: 400;
@@ -63,7 +68,8 @@ left: 500px;
   line-height: var(--inter-20-600-line-height);
   font-style: var(--inter-20-600-font-style);
 }
-.button{
+
+.button {
   width: 40%;
   font-family: var(--inter-20-600-font-family);
   font-weight: var(--inter-20-600-font-weight);
@@ -72,17 +78,19 @@ left: 500px;
   border-color: transparent;
   background-color: var(--primary);
   color: white;
-  
+
 }
+
 .frame-2 {
   display: flex;
   flex-direction: column;
- gap: 72px;
+  gap: 72px;
   align-items: center;
-  height:fit-content ;
+  height: fit-content;
 
 }
-.slide .CONHE-a-UM-POUCO {
+
+.CONHE-a-UM-POUCO {
   align-self: stretch;
   font-family: "Anton SC", Helvetica;
   font-weight: 400;
@@ -90,6 +98,7 @@ left: 500px;
   font-size: 60px;
   text-align: center;
 }
+
 .frame-3 {
   display: flex;
   align-items: center;
@@ -97,12 +106,14 @@ left: 500px;
   width: 100%;
   justify-content: center;
 }
+
 .frame-4 {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
 }
+
 
 .slide .text-wrapper-3 {
   width: fit-content;
@@ -125,7 +136,8 @@ left: 500px;
   line-height: var(--inter-20-600-line-height);
   font-style: var(--inter-20-600-font-style);
 }
-.button-2{
+
+.button-2 {
   width: 70%;
   font-family: var(--inter-20-600-font-family);
   font-weight: var(--inter-20-600-font-weight);
@@ -134,22 +146,27 @@ left: 500px;
   border-color: transparent;
   background-color: var(--secondary);
   color: black;
-  
+
 }
-.frame-5{
+
+.frame-5 {
 
   background-color: black;
 }
-.frame-6{
+
+.frame-6 {
   display: flex;
   position: relative;
   background-color: black;
   flex-direction: column;
 
 }
-.frame-7{
+
+
+
+.frame-7 {
   position: absolute;
-  display: flex; 
+  display: flex;
   width: 100%;
   align-items: center;
   height: 80%;
@@ -157,7 +174,8 @@ left: 500px;
   gap: 20px;
   justify-content: center;
 }
-.slide .frame-8 {
+
+.frame-8 {
   display: flex;
   flex-direction: column;
   width: 500px;
@@ -170,7 +188,8 @@ left: 500px;
   border-color: transparent;
   padding: 48px;
 }
-.frame-7-5{
+
+.frame-7-5 {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
@@ -187,7 +206,8 @@ left: 500px;
   letter-spacing: 0;
   line-height: normal;
 }
- .p {
+
+.p {
   font-family: var(--inter-16-600-font-family);
   font-weight: var(--inter-16-600-font-weight);
   color: var(--dark-gray);
@@ -196,8 +216,9 @@ left: 500px;
   line-height: var(--inter-16-600-line-height);
   font-style: var(--inter-16-600-font-style);
 }
+
 .slide .text-wrapper-7 {
- 
+
   font-family: var(--ANTON-SC-32-font-family);
   font-weight: var(--ANTON-SC-32-font-weight);
   color: #ffffff;
@@ -245,7 +266,192 @@ left: 500px;
   white-space: nowrap;
   font-style: var(--inter-20-600-font-style);
 }
-.frame-11{
+
+.frame-11 {
   padding: 40px;
   width: 100%;
+}
+
+@media (max-width:1440px) {
+
+  .slide {
+    width: 1440px;
+  }
+
+  .text-wrapper-1 {
+    font-size: 56px;
+  }
+
+  .macrofit-high {
+    width: 430px;
+    height: 300px;
+  }
+
+  .img {
+    width: 1700px;
+    height: 2000px;
+    top: -800px;
+    left: 400px;
+  }
+
+  .frame-8 {
+    width: 400px;
+    height: 350px;
+    padding: 40px;
+
+  }
+}
+
+@media (max-width:1024px) {
+  .slide {
+    width: 1024px;
+  }
+
+  .text-wrapper-1 {
+    font-size: 56px;
+  }
+
+  .macrofit-high {
+    width: 350px;
+    height: 280px;
+  }
+
+  .frame-1 {
+    width: 90%;
+  }
+
+  .frame-3 {
+    gap: 100px;
+
+  }
+
+  .slide .text-wrapper-4 {
+    width: 400px;
+    opacity: 0.7;
+    font-size: var(--inter-16-600-font-size);
+
+  }
+
+  .slide .text-wrapper-6 {
+    font-size: 48px;
+
+  }
+  .overlap{
+    height: 1400px;
+  }
+  .img {
+      width: 1500px;
+      height: 1700px;
+      top: -600px;
+      left: 300px;
+  }
+
+  .frame-8 {
+    width: 300px;
+    height: 300px;
+    padding: 28px;
+
+  }
+
+  .p {
+    font-size: 12px;
+
+  }
+
+  .slide .text-wrapper-3 {
+    font-size: 24px;
+
+  }
+
+  .slide .text-wrapper-7 {
+    font-size: 24px;
+
+  }
+
+  .slide .text-wrapper-8 {
+    font-size: 16px;
+
+  }
+
+
+
+
+}
+
+@media (max-width:768px) {
+  .slide {
+    width: 768px;
+  }
+
+  .text-wrapper-1 {
+    font-size: 48px;
+  }
+  .text-wrapper-2 {
+    font-size: 16px;
+  }
+  .CONHE-a-UM-POUCO{
+    font-size: 40px;
+  }
+
+  .macrofit-high {
+    width: 300px;
+    height: 250px;
+  }
+
+  .frame-1 {
+    width: 90%;
+  }
+
+  .frame-3 {
+    gap: 100px;
+
+  }
+
+  .slide .text-wrapper-4 {
+    width: 300px;
+    opacity: 0.7;
+    font-size: var(--inter-16-600-font-size);
+
+  }
+  .button-2{
+    width: 90%;
+  }
+  .slide .text-wrapper-6 {
+    font-size: 36px;
+
+  }
+  .overlap{
+    height: 1200px;
+  }
+  .img {
+      width: 1400px;
+      height: 1500px;
+      top: -600px;
+      left: 50px;
+  }
+  .frame-7{
+    gap: 10px;
+  }
+ 
+
+  .frame-8 {
+    width: 250px;
+    height: 250px;
+    padding: 16px;
+    gap: 8px;
+
+
+  }
+  .slide .text-wrapper-3 {
+    font-size:20px;
+
+  }
+  .margin{
+    margin: 0px; 
+  }
+
+
+
+
+
 }
