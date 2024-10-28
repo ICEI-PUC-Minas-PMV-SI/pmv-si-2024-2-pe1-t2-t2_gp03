@@ -8,6 +8,9 @@ body {
   flex-direction: column;
   gap: 15%;
   height: 100vh;
+  flex-direction: column;
+  gap: 15%;
+  height: 100vh;
 }
 
 
@@ -18,7 +21,7 @@ body {
   flex-direction: row;
   height: 900px;
   display: relative;
-
+  
 
 }
 
@@ -45,6 +48,7 @@ body {
   width: 50%;
   height: 100%;
   padding: 0 0 0 5%;
+  padding: 0 0 0 5%;
   gap: 32px;
 }
 
@@ -57,7 +61,6 @@ body {
 }
 
 .slide .text-wrapper-2 {
-
   align-self: stretch;
   opacity: 0.7;
   font-family: var(--inter-20-600-font-family);
@@ -84,6 +87,7 @@ body {
 .frame-2 {
   display: flex;
   flex-direction: column;
+  gap: 72px;
   gap: 72px;
   align-items: center;
   height: fit-content;
@@ -149,23 +153,23 @@ body {
 
 }
 
-.frame-5 {
 
+
+.frame-5 {
   background-color: black;
 }
-
 .frame-6 {
   display: flex;
   position: relative;
   background-color: black;
   flex-direction: column;
-
 }
 
 
 
 .frame-7 {
   position: absolute;
+  display: flex;
   display: flex;
   width: 100%;
   align-items: center;
@@ -193,11 +197,9 @@ body {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
-
 }
 
 .slide .text-wrapper-6 {
-
   font-family: "Anton SC", Helvetica;
   font-weight: 400;
   color: var(--dark-gray);
@@ -206,8 +208,7 @@ body {
   letter-spacing: 0;
   line-height: normal;
 }
-
-.p {
+ .p {
   font-family: var(--inter-16-600-font-family);
   font-weight: var(--inter-16-600-font-weight);
   color: var(--dark-gray);
@@ -266,6 +267,7 @@ body {
   white-space: nowrap;
   font-style: var(--inter-20-600-font-style);
 }
+
 
 .frame-11 {
   padding: 40px;
@@ -452,6 +454,6 @@ body {
 
 
 
-
-
 }
+
+
