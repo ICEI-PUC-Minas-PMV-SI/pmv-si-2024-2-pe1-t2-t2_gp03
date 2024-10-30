@@ -36,15 +36,15 @@
                 </p>
                 <div class="theme-inputs">
                     <div class="theme-input-container">
-                        <input name="theme" class="theme-input" type="radio"></input>
+                        <input name="theme" class="theme-input" type="radio" value="light" onchange="setTheme(this.value)">
                         <p class="inter-medium">Claro</p>
                     </div>
                     <div class="theme-input-container">
-                        <input name="theme" class="theme-input" type="radio"></input>
+                        <input name="theme" class="theme-input" type="radio" value="dark" onchange="setTheme(this.value)">
                         <p class="inter-medium">Escuro</p>
                     </div>
                     <div class="theme-input-container">
-                        <input name="theme" class="theme-input" type="radio"></input>
+                        <input name="theme" class="theme-input" type="radio" value="system" onchange="setTheme(this.value)" checked>
                         <p class="inter-medium">Sistema</p>
                     </div>
                 </div>
@@ -171,5 +171,6 @@
         </div>
     </div>
     <script src="./script/new-profile.js"></script>
+    <script src="./script/themeService.js"></script>
 </body>
 </html>
