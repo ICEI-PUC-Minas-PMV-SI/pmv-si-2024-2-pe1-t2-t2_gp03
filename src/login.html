@@ -15,7 +15,7 @@
       <img class="logo_image" src="img/group.png" />
     </div>
     <div class="form-container">
-      <form action="">
+      <form  id = 'loginForm' action="">
         <div class="form-title-container">
           <h1 class="anton-sc-regular title-style">Login</h1>
           <p class="inter-medium">Seja bem vindo novamente ao MacroFit, informe seu email e senha para entrar!</p>
@@ -23,19 +23,23 @@
         <div class="form-input-container">
           <div class="input-container">
             <img class="icons" src="img/icons-4.svg" />
-            <input class="input inter-semibold" placeholder="Ex. username@gmail.com" type="text" />
+            <input  id='emailLogin' class="input inter-semibold" placeholder="Ex. username@gmail.com" type="text" />
           </div>
           <div class="input-container">
             <img class="icons" src="img/password.svg" />
-            <input class="input inter-semibold" placeholder="Ex. secretpass123@" type="password" />
+            <input id="passwordLogin" class="input inter-semibold" placeholder="Ex. secretpass123@" type="password" />
           </div>
         </div>
-        <button class="button inter-semibold" type="submit" onclick="window.location = './profile.html'">Cadastrar</button>
+        <button  id ='submitLoginForm' class="button inter-semibold" type="submit" >Entrar</button>
       </form>
       <div>
 
       </div>
     </div>
   </body>
-
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics-compat.js"></script>
+  <script src="./script/firebase.js"></script> <!-- Inicializa o Firebase -->
+  <script src="./script/loginAuth.js"></script> <!-- Usa o Firebase -->
   </html>
