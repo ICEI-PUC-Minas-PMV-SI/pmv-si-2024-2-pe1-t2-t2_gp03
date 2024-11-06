@@ -1,45 +1,43 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="style/globals.css" />
-    <link rel="stylesheet" href="style/styleguide.css" />
-    <link rel="stylesheet" href="style/register.css" />
-  </head>
-  <body>
-    <div class="register">
-      <div class="frame">
-        <div class="frame-wrapper">
-          <div class="div">
-            <div class="frame-2">
-              <div class="text-wrapper">Cadastre-se</div>
-              <p class="p">
-                Seja bem vindo ao MacroFit, informe seu email e crie uma senha para começar uma vida mais saudável.
-              </p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/globals.css" />
+    <link rel="stylesheet" href="./style/register.css" />
+    <title>Macrofit</title>
+</head>
+<body>
+    <div class="main">
+        <div class="register-form-container">
+            <div class="register-form">
+                <div class="register-form-header">
+                    <h1 class="register-form-header-title anton-sc-regular" >Cadastre-se</h1>
+                    <p class="register-form-header-text inter-medium">
+                        Seja bem vindo ao MacroFit, informe seu email e crie uma senha para começar uma vida mais saudável.
+                    </p>
+                </div>
+                <div class="register-form-inputs">
+                    <div class="input-container">
+                        <img class="icons" src="img/icons-5.svg" />
+                        <input class="input inter-semibold" placeholder="Ex. username@gmail.com" type="text" />
+                    </div>
+                    <div class="input-container">
+                        <img class="icons" src="img/password.svg" />
+                        <input class="input inter-semibold" placeholder="Ex. secretpass123@" type="password" />
+                    </div>
+                    <div class="input-container">
+                        <img class="icons" src="img/password.svg" />
+                        <input class="input inter-semibold" placeholder="Ex. secretpass123@" type="password" />
+                    </div>
+                </div>
+                <button class="register-button" href="./login.html" onclick="window.location = './login.html'">Cadastrar</button>
+                <!-- <a href="./new-login.html">Já possui uma conta? Clique aqui!</a> -->
             </div>
-            <div class="frame-2">
-              <div class="input">
-                <img class="icons" src="img/icons-5.svg" />
-                <input class="placeholder" placeholder="Ex. username@gmail.com" type="text" />
-              </div>
-              <div class="input">
-                <img class="icons" src="img/password.svg" />
-                <input class="placeholder" placeholder="Ex. secretpass123@" type="password" />
-              </div>
-              <div class="input">
-                <img class="icons" src="img/password.svg" />
-                <input class="placeholder" placeholder="Ex. secretpass123@" type="password" />
-              </div>
-            </div>
-                <button class="button"><a href="profile.html" style="color: white">Cadastrar</a></button>
-          </div>
-          <a href="login.html">Ja tem uma conta? Clique aqui</a> 
-       
         </div>
-      </div>
-
-      <div class="rectangle"></div>
-      <img class="group" src="img/group.png" />
+        <div class="hero-container">
+            <img class="logo" src="./img/group.png" alt="">
+        </div>
     </div>
-  </body>
+</body>
 </html>
