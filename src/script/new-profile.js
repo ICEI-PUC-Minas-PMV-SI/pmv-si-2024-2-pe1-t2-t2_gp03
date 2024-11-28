@@ -158,3 +158,75 @@ window.addEventListener('resize', initialize);
 
 // Executar a inicialização ao carregar a página
 document.addEventListener('DOMContentLoaded', initialize);
+
+// Função para calcular IMC
+function calculateIMC(weight, height) {
+    return weight / (height * height);  // altura em metros, peso em kg
+}
+
+// Função para calcular TMB (Taxa Metabólica Basal)
+function calculateTMB(weight, height, age, gender) {
+    if (gender === 'male') {
+        return 66.5 + (13.75 * weight) + (5.003 * height) - (6.75 * age); // Homens
+    } else {
+        return 655.1 + (9.563 * weight) + (1.850 * height) - (4.676 * age); // Mulheres
+    }
+}
+
+// Função para calcular GET (Gasto Energético Total)
+function calculateGET(tmb, activityLevel) {
+    let activityMultiplier;
+
+    switch (activityLevel) {
+        case 'sedentary':
+            activityMultiplier = 1.2;
+            break;
+        case 'light':
+            activityMultiplier = 1.375;
+            break;
+        case 'moderate':
+            activityMultiplier = 1.55;
+            break;
+        case 'intense':
+            activityMultiplier = 1.725;
+            break;
+        case 'veryIntense':
+            activityMultiplier = 1.9;
+            break;
+        default:
+            activityMultiplier = 1.2; // Padrão para sedentário
+            break;
+    }
+
+    return tmb * activityMultiplier;
+}
+
+// Função principal para calcular e armazenar os resultados
+function calculateProfile() {
+    // Captura as informações do perfil
+    const weight = parseInt(document.getElementById('weight-display').textContent, 10); // Peso do display
+    const height = parseInt(document.getElementById('height-display').textContent, 10); // Altura do display
+    const age = parseInt(document.getElementById('age-display').textContent, 10); // Idade (necessário adicionar no HTML)
+    const gender = document.querySelector('input[name="gender"]:checked').value; // Gênero (selecione com base nos inputs de radio)
+    const activityLevel = document.querySelector('input[name="activity"]:checked').value; // Nível de atividade (baseado nos inputs de radio)
+
+    // Convertendo altura para metros
+    const heightInMeters = height / 100;
+
+    // Calcular IMC
+    const imc = calculateIMC(weight, heightInMeters);
+    const tmb = calculateTMB(weight, height, age, gender);
+    const get = calculateGET(tmb, activityLevel);
+
+    // Armazenar os resultados no localStorage
+    localStorage.setItem('imc', imc.toFixed(2));
+    localStorage.setItem('tmb', tmb.toFixed(2));
+    localStorage.setItem('get', get.toFixed(2));
+
+    // Redirecionar para a página de resultados
+    window.location = './results.html';
+}
+
+// Adicionar o evento de click no botão "Gerar Resultados"
+document.querySelector('.generate-btn').addEventListener('click', calculateProfile);
+

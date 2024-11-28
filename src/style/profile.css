@@ -95,7 +95,8 @@
 }
 
 .gender-container {
-    display: flex;
+    display: contents;
+    
     flex-direction: column;
     min-width: 100%;
     max-width: 100%;
@@ -163,7 +164,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 56px; 
+    width: px; 
     height: 48px;
     background-color: var(--primary);
     border-radius: 8px;
@@ -188,7 +189,7 @@
 .weight-cards {
     display: flex;
     min-width: max-content;
-    max-width: 208px;
+    max-width: 300px;
     justify-content: space-between;
     align-items: center;
     height: 48px;    
@@ -465,7 +466,7 @@
         row-gap: 32px;
         column-gap: 48px;
         grid-template-areas: "info measurements"
-                             "theme gender"
+                             "theme theme"
                              "activity activity"
                              "results results";
     }
@@ -480,14 +481,14 @@
         grid-area: theme;
     }
     .gender-container{
-        grid-area: gender;
+        grid-area: info;
     }
     .physical-activity{
-        grid-area: activity;
+        grid-area: theme;
     }
 
     .next-page-div {
-        grid-area: results;
+        grid-area: activity;
         gap: 24px;
     }
     .generate-results-container {
@@ -600,25 +601,22 @@
 
 @media (min-width: 1920px) {
     .content {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 240px 200px 160px;
-        /* row-gap: 32px;
-        column-gap: 48px; */
-        grid-template-areas: "info measurements activity"
-                             "theme gender activity"
-                             "results results activity";
+        padding: 72px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 232px 200px 200px 160px;
+        row-gap: 32px;
+        column-gap: 48px;
+        grid-template-areas: "info measurements"
+                             "theme theme"
+                             "activity activity"
+                             "results results";
     }
-
     .physical-activity{
         min-width: fit-content;
         max-width: fit-content;
     }
 
-    .physical-activity-cards {
-        flex-direction: column;
-        /* align-items: start;
-        max-width: fit-content; */
-    }
     .physical-activity-card{
         min-width: 440px;
         min-height: 136px;
@@ -629,4 +627,7 @@
 
     }
 
+
+
+    
 }

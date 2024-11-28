@@ -80,7 +80,14 @@ document.querySelector('.chevron-down').addEventListener('click', function () {
     }
   }, 400);
 
+  const imc = localStorage.getItem('imc');
+  const tmb = localStorage.getItem('tmb');
+  const get = localStorage.getItem('get');
 
+  // Exibir os resultados
+  document.getElementById('imc-result').textContent = `IMC: ${imc}`;
+  document.getElementById('tmb-result').textContent = `TMB: ${tmb} kcal/dia`;
+  document.getElementById('get-result').textContent = `GET: ${get} kcal/dia`;
 
 
 

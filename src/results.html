@@ -21,13 +21,13 @@
             <div class="get-and-tmb-container">
               <div class="tax">
                 <h3 class="anton-sc-regular text-dark-gray">GET</h3>
-                <span class="bg-primary anton-sc-regular">
+                <span class="bg-primary anton-sc-regular" id="get-result">
                   2340 KCAL
                 </span>
               </div>
               <div class="tax">
                 <h3 class="anton-sc-regular  text-dark-gray">TMB</h3>
-                <span class="bg-secondary anton-sc-regular text-dark-gray">
+                <span class="bg-secondary anton-sc-regular text-dark-gray" id="tmb-result">
                   2340 KCAL
                 </span>
               </div>
@@ -38,7 +38,7 @@
               <div class="imc-container">
                 <div style="display: flex; align-items: center; flex-direction: column; gap: 0.5rem;">
 
-                  <p class="anton-sc-regular text-dark-gray">24,5</p>
+                  <p class="anton-sc-regular text-dark-gray" id="imc-result">24,5</p>
                   <p class="anton-sc-regular text-dark-gray">Peso normal</p>
                 </div>
                 <div class="gradient-bar"></div>
@@ -74,11 +74,7 @@
                   ATIVIDADES FÍSICAS
                 </summary>
                 <p class="inter-regular"
-                  style="color: var(--text-color); font-size: 14px; opacity: 0.7; padding-top: 0.75rem;">"Sed ut
-                  perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                  architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur
-                  aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                  style="color: var(--text-color); font-size: 14px; opacity: 0.7; padding-top: 0.75rem;">Para um estilo de vida saudável, é essencial combinar diferentes tipos de atividades físicas. Pratique exercícios aeróbicos, como caminhada ou corrida, para melhorar a saúde cardiovascular. Adicione musculação ou treinamento funcional para aumentar a força e a massa muscular. Inclua atividades de flexibilidade, como yoga ou alongamentos, para prevenir lesões. Experimente também o HIIT para queimar gordura e melhorar o condicionamento em pouco tempo. Não se esqueça de atividades que promovem o bem-estar mental, como meditação e caminhadas ao ar livre. Lembre-se de ser consistente, aumentar a intensidade gradualmente e manter-se hidratado.</p>
               </details>
               <details class="accordion">
                 <summary class="anton-sc-regular tax-content" style="display: flex; gap: 1rem;">
@@ -86,11 +82,7 @@
                   ALIMENTAÇÃO
                 </summary>
                 <p class="inter-regular"
-                  style="color: var(--text-color); font-size: 14px; opacity: 0.7; padding-top: 0.75rem;">"Sed ut
-                  perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                  architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur
-                  aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                  style="color: var(--text-color); font-size: 14px; opacity: 0.7; padding-top: 0.75rem;">Para uma alimentação saudável, foque em uma dieta equilibrada, rica em nutrientes essenciais. Consuma uma variedade de frutas e vegetais para garantir vitaminas e fibras. Inclua fontes de proteína magra, como frango, peixe, ovos e leguminosas, para apoiar a recuperação muscular e a saúde geral. Escolha carboidratos integrais, como arroz integral e aveia, para energia sustentada. Evite alimentos processados e ricos em açúcar, optando por gorduras saudáveis, como as encontradas em abacates, nozes e azeite de oliva. Beba bastante água, e mantenha um equilíbrio entre as porções, respeitando suas necessidades energéticas.</p>
               </details>
             </div>
           </div>
@@ -100,26 +92,18 @@
         <div class="aside-container">
           <div class="aside-info-container">
             <h2 class="aside-title anton-sc-regular">GET</h2>
-            <p class="aside-text inter-regular">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium
-              doloremque laudantium, totam
-              rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.”</p>
+            <p class="aside-text inter-regular">O GET (Gasto Energético Total) é a quantidade de energia que o corpo usa em um dia, incluindo o metabolismo basal (TMB), a energia gasta na digestão dos alimentos (TEF) e a energia consumida durante atividades físicas. Calcular o GET é essencial para ajustar a ingestão calórica, ajudando a atingir objetivos como perder, manter ou ganhar peso de forma saudável.</p>
           </div>
           <span class="aside-divider"></span>
           <div class="aside-info-container">
             <h2 class="aside-title anton-sc-regular">TMB</h2>
-            <p class="aside-text inter-regular">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium
-              doloremque laudantium, totam
-              rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.”</p>
+            <p class="aside-text inter-regular">A Taxa de Metabolismo Basal (TMB) é a quantidade de energia que o corpo gasta para manter suas funções vitais em repouso, como respirar, circular o sangue e regular a temperatura corporal. A TMB representa a energia mínima necessária para o funcionamento básico do organismo e é influenciada por fatores como idade, sexo, peso e composição corporal. Esse valor é fundamental para calcular o Gasto Energético Total (GET) e determinar as necessidades calóricas diárias de uma pessoa.</p>
           </div>
           <span class="aside-divider"></span>
           <div class="aside-info-container">
             <h2 class="aside-title anton-sc-regular">IMC</h2>
-            <p class="aside-text inter-regular">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium
-              doloremque laudantium, totam
-              rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.”</p>
+            <p class="aside-text inter-regular">
+              O Índice de Massa Corporal (IMC) é uma medida usada para avaliar se uma pessoa está com o peso adequado em relação à sua altura. Ele é calculado dividindo o peso pela altura ao quadrado. O IMC é uma ferramenta simples e comum para identificar se alguém está dentro de um peso saudável.</p>
           </div>
 
         </div>
