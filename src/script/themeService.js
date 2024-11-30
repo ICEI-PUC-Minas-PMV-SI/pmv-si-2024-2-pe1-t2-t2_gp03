@@ -27,6 +27,7 @@ function applyTheme(theme) {
     document.body.classList.remove('light', 'dark'); 
     // Adiciona o novo tema
     document.body.classList.add(theme);
+    theme === 'dark' ? showDarkThemedElements() : showLightThemedElements()
 }
 
 // Define e aplica o tema
@@ -54,4 +55,15 @@ mediaQuery.addEventListener('change', (event) => {
 // Habilita o tema como 'system' e aplica o tema atual do sistema
 function enableSystemTheme() {
     setTheme('system'); // Define o tema como 'system'
+}
+
+//Out of pattern elements
+const darkThemeProfileIcon = './img/icons-profile-highlighted.svg'
+const lightThemeProfileIcon = './img/icons-profile-dark.svg'
+function showDarkThemedElements(){
+
+}
+
+function showLightThemedElements(){
+
 }
