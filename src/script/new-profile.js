@@ -26,53 +26,63 @@ function unhoverCard(card) {
     }
 }
 
+function hoverCard(card) {
+    const img = card.querySelector('img');
+    img.src = './img/icons-check-highlighted.svg';
+}
+
+
+function unhoverCard(card) {
+    const img = card.querySelector('img');
+    if (!card.classList.contains('physical-activity-card-selected')) {
+        img.src = './img/icons-check.svg';
+    }
+}
+
+
 function selectCard(card) {
-    // Remove a classe de seleção e troca a imagem de todos os cards
     const cards = document.querySelectorAll('.physical-activity-card, .physical-activity-card-selected');
-    
+
     cards.forEach(c => {
         const img = c.querySelector('img');
         if (c === card) {
-            // Se for o card clicado, adicione a classe "selected" e troque a imagem
-            c.classList.add('physical-activity-card-selected');
-            img.src = './img/icons-check-highlighted.svg'; // imagem selecionada
+            c.classList.add('physical-activity-card-selected', 'selected');
+            img.src = './img/icons-check-highlighted.svg';
         } else {
-            // Para os outros cards, remova a classe "selected" e restaure a imagem
-            c.classList.remove('physical-activity-card-selected');
-            img.src = './img/icons-check.svg'; // imagem padrão
+            c.classList.remove('physical-activity-card-selected', 'selected');
+            img.src = './img/icons-check.svg';
         }
     });
 }
 
 let selectedCard = null;
-
 function selectGender(currentCard) {
     const img = currentCard.querySelector('.gender-card');
 
-    // Se já houver um cartão selecionado e não for o atual, desmarque-o
+
     if (selectedCard && selectedCard !== currentCard) {
         const previousImg = selectedCard.querySelector('.gender-card');
-        previousImg.src = previousImg.src.replace('-selected', ''); // Remove '-selected' da imagem
-        selectedCard.style.backgroundColor = ''; // Remove a cor de fundo do cartão anterior
+        previousImg.src = previousImg.src.replace('-selected', ''); 
+        selectedCard.style.backgroundColor = ''; 
     }
 
-    // Altera a imagem do cartão atual para selecionado
+
     img.src = img.getAttribute('data-selected-src');
     
-    // Altera a cor de fundo com base no gênero selecionado
+ 
     if (img.src.includes('female')) {
-        currentCard.style.backgroundColor = '#EF476F'; //pink
+        currentCard.style.backgroundColor = '#EF476F';
     } else {
-        currentCard.style.backgroundColor = '#26547C' //blue;
+        currentCard.style.backgroundColor = '#26547C' 
     }
 
-    // Atualiza o cartão selecionado
+  
     selectedCard = currentCard;
 }
 
 
 
-// Função para mostrar elementos da visualização correta com base no índice
+
 function showElements() {
     const mobileElements = document.querySelectorAll('.mobile-1, .mobile-2, .mobile-3');
     const tabletElements = document.querySelectorAll('.tablet-1, .tablet-2');
@@ -82,56 +92,56 @@ function showElements() {
     const isTablet = window.innerWidth >= 375 && window.innerWidth <= 768;
     const isDesktop = window.innerWidth > 768;
 
-    // Recupera o índice do localStorage
+
     const mobileIndex = parseInt(localStorage.getItem('mobile-page-index')) || 0;
     const tabletIndex = parseInt(localStorage.getItem('tablet-page-index')) || 0;
 
-    // Se for mobile, esconder elementos de tablet
+
     if (!isTablet) {
         mobileElements.forEach((element) => {
             element.style.display = element.classList.contains(`mobile-${mobileIndex + 1}`) ? 'flex' : 'none';
         });
 
-        // Lógica dos botões para mobile
-        if (mobileIndex === 2) { // mobile-3
-            nextButton.style.display = 'none'; // Ocultar "Avançar"
-            generateButton.style.display = 'flex'; // Mostrar "Gerar Resultados"
+       
+        if (mobileIndex === 2) { 
+            nextButton.style.display = 'none'; 
+            generateButton.style.display = 'flex'; 
         } else {
-            nextButton.style.display = 'flex'; // Mostrar "Avançar" nos outros casos
-            generateButton.style.display = 'none'; // Ocultar "Gerar Resultados"
+            nextButton.style.display = 'flex';
+            generateButton.style.display = 'none'; 
         }
     }
 
-    // Se for tablet, mostrar elementos de tablet
+   
     if (isTablet) {
         tabletElements.forEach((element) => {
             element.style.display = element.classList.contains(`tablet-${tabletIndex + 1}`) ? 'flex' : 'none';
         });
 
-        // Lógica dos botões para tablet
-        if (tabletIndex === 1) { // tablet-2
-            nextButton.style.display = 'none'; // Ocultar "Avançar"
-            generateButton.style.display = 'flex'; // Mostrar "Gerar Resultados"
+     
+        if (tabletIndex === 1) { 
+            nextButton.style.display = 'none'; 
+            generateButton.style.display = 'flex'; 
         } else {
-            nextButton.style.display = 'flex'; // Mostrar "Avançar" nos outros casos
-            generateButton.style.display = 'none'; // Ocultar "Gerar Resultados"
+            nextButton.style.display = 'flex'; 
+            generateButton.style.display = 'none'; 
         }
     }
 
-    // Se for desktop, mostrar todos os elementos
+    
     if (isDesktop) {
         mobileElements.forEach((element) => {
-            element.style.display = 'flex'; // Exibir todos os elementos
+            element.style.display = 'flex'; 
         });
         tabletElements.forEach((element) => {
-            element.style.display = 'flex'; // Exibir todos os elementos
+            element.style.display = 'flex'; 
         });
-        nextButton.style.display = 'none'; // Ocultar "Avançar" no desktop
-        generateButton.style.display = 'flex'; // Mostrar "Gerar Resultados"
+        nextButton.style.display = 'none'; 
+        generateButton.style.display = 'flex'; 
     }
 }
 
-// Função para avançar para a próxima página
+
 function nextPage() {
     const isTablet = window.innerWidth >= 375 && window.innerWidth <= 768;
 
@@ -153,18 +163,18 @@ function initialize() {
     showElements(); // Mostra elementos baseados nos índices salvos
 }
 
-// Atualizar a visualização ao redimensionar a tela
+
 window.addEventListener('resize', initialize);
 
-// Executar a inicialização ao carregar a página
+
 document.addEventListener('DOMContentLoaded', initialize);
 
-// Função para calcular IMC
+
 function calculateIMC(weight, height) {
     return weight / (height * height);  // altura em metros, peso em kg
 }
 
-// Função para calcular TMB (Taxa Metabólica Basal)
+
 function calculateTMB(weight, height, age, gender) {
     if (gender === 'male') {
         return 66.5 + (13.75 * weight) + (5.003 * height) - (6.75 * age); // Homens
@@ -173,7 +183,7 @@ function calculateTMB(weight, height, age, gender) {
     }
 }
 
-// Função para calcular GET (Gasto Energético Total)
+
 function calculateGET(tmb, activityLevel) {
     let activityMultiplier;
 
@@ -201,7 +211,7 @@ function calculateGET(tmb, activityLevel) {
     return tmb * activityMultiplier;
 }
 
-// Função principal para calcular e armazenar os resultados
+
 function calculateProfile() {
     // Captura as informações do perfil
     const weight = parseInt(document.getElementById('weight-display').textContent, 10); // Peso do display
@@ -210,23 +220,23 @@ function calculateProfile() {
     const gender = document.querySelector('input[name="gender"]:checked').value; // Gênero (selecione com base nos inputs de radio)
     const activityLevel = document.querySelector('input[name="activity"]:checked').value; // Nível de atividade (baseado nos inputs de radio)
 
-    // Convertendo altura para metros
+    
     const heightInMeters = height / 100;
 
-    // Calcular IMC
+ 
     const imc = calculateIMC(weight, heightInMeters);
     const tmb = calculateTMB(weight, height, age, gender);
     const get = calculateGET(tmb, activityLevel);
 
-    // Armazenar os resultados no localStorage
+    
     localStorage.setItem('imc', imc.toFixed(2));
     localStorage.setItem('tmb', tmb.toFixed(2));
     localStorage.setItem('get', get.toFixed(2));
 
-    // Redirecionar para a página de resultados
+ 
     window.location = './results.html';
 }
 
-// Adicionar o evento de click no botão "Gerar Resultados"
+
 document.querySelector('.generate-btn').addEventListener('click', calculateProfile);
 

@@ -5,7 +5,7 @@ registerForm.onsubmit = function (event) {
 
     firebase.auth().createUserWithEmailAndPassword(registerForm.emailRegister.value, registerForm.passwordRegister.value)
       .then(() => {
-          // Registro bem-sucedido, redireciona para login.html
+          
           window.location.href = "login.html";
       })
       .catch(function (error) {

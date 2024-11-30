@@ -12,6 +12,18 @@ loginForm.onsubmit = function (event) {
           console.log('Falha no acesso');
           console.log(error);
       });
+
+
+
+      firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL)
+  .then(() => {
+    // A persistência foi configurada com sucesso
+    console.log("Persistência configurada com sucesso");
+  })
+  .catch((error) => {
+    console.error("Erro ao configurar persistência:", error);
+  });
+
 }
 
 function signOut() {

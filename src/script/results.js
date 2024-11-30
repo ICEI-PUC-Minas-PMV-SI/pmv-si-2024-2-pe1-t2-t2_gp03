@@ -80,19 +80,114 @@ document.querySelector('.chevron-down').addEventListener('click', function () {
     }
   }, 400);
 
-  const imc = localStorage.getItem('imc');
-  const tmb = localStorage.getItem('tmb');
-  const get = localStorage.getItem('get');
 
-  // Exibir os resultados
-  document.getElementById('imc-result').textContent = `IMC: ${imc}`;
-  document.getElementById('tmb-result').textContent = `TMB: ${tmb} kcal/dia`;
-  document.getElementById('get-result').textContent = `GET: ${get} kcal/dia`;
+
+  function fillTodoList(dataSnapshot){
+    dataSnapshot.forEach(function(item){
+        var value = item.val()
+
+        var li = document.createElement('li')
+        var spanLi = document.createElement('span')
+
+        spanLi.appendChild(document.createTextNode(value.name))
+        li.appendChild(spanLi)
+        ulTodoList.appendChild(li)
+    })
+    
+};
+
+
+function fillResults(dataSnapshot) {
+ 
+  dataSnapshot.forEach(function(item) {
+      var value = item.val(); 
+      
+     
+      var get = value.get || 'Não disponível'; 
+      var tmb = value.tmb || 'Não disponível'; 
+      var imc = value.imc || 'Não disponível'; 
+
+      
+      document.getElementById('get-result').textContent = get + ' KCAL';
+      document.getElementById('tmb-result').textContent = tmb + ' KCAL';
+      document.getElementById('imc-result').textContent = imc;
+
+      
+      var imcClassification = '';
+      if (imc < 18.5) {
+          imcClassification = 'Abaixo do peso';
+      } else if (imc >= 18.5 && imc < 24.9) {
+          imcClassification = 'Peso normal';
+      } else if (imc >= 25 && imc < 29.9) {
+          imcClassification = 'Sobrepeso';
+      } else {
+          imcClassification = 'Obesidade';
+      }
+
+     
+      var imcClassificationElement = document.querySelector('#imc-result + p');
+      if (imcClassificationElement) {
+          imcClassificationElement.textContent = imcClassification;
+      }
+  });
+}
+
+  
+
+function displayResults() {
+ 
+  var resultData = JSON.parse(localStorage.getItem('profileResults'));
+
+ 
+  if (resultData) {
+      
+      document.getElementById('get-result').textContent = resultData.get + ' KCAL';
+      document.getElementById('tmb-result').textContent = resultData.tmb + ' KCAL';
+      document.getElementById('imc-result').textContent = resultData.imc;
+
+      C
+      var imcClassification = '';
+      if (parseFloat(resultData.imc) < 18.5) {
+          imcClassification = 'Abaixo do peso';
+      } else if (parseFloat(resultData.imc) >= 18.5 && parseFloat(resultData.imc) < 24.9) {
+          imcClassification = 'Peso normal';
+      } else if (parseFloat(resultData.imc) >= 25 && parseFloat(resultData.imc) < 29.9) {
+          imcClassification = 'Sobrepeso';
+      } else {
+          imcClassification = 'Obesidade';
+      }
+
+      
+      var imcClassificationElement = document.querySelector('#imc-result + p');
+      if (imcClassificationElement) {
+          imcClassificationElement.textContent = imcClassification;
+      }
+  } else {
+      console.error('Nenhum dado encontrado no localStorage');
+  }
+}
+
+
+
 
 
 
 window.onload = function() {
+  displayResults();
+  console.log(localStorage.getItem('profileResults'));
+
+
+};
+
+
+
+window.onload = function() {
+    dbRefUsers.child(firebase.auth().currentUser.uid).on('value', function(dataSnapshot) {
+      fillTodoList(dataSnapshot)
+    })
     animateCount();
     animateCount2();
     incrementCounter();
 };
+
+
