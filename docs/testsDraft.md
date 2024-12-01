@@ -132,3 +132,12 @@ Os resultados mostram que a aplicação atende às expectativas dos usuários qu
 - **Satisfação Subjetiva**: Média de 4.5/5.  
 - **Tempo de Conclusão**: Dentro do esperado, mas há espaço para melhorias no carregamento de algumas funções.  
 
+Por outro lado, foi observada uma diferença significativa no tempo médio de conclusão entre usuários e especialistas. Embora essa discrepância seja natural devido ao maior conhecimento prévio do especialista sobre a interface e os processos, alguns participantes relataram dificuldades em localizar informações e compreender termos técnicos, especialmente no cálculo de GET e na distribuição de macronutrientes.
+
+#### **Principais Oportunidades de Melhoria**
+- **Mensagens de Ajuda:** Incluir explicações breves diretamente na interface para conceitos técnicos, como GET e TMB, para facilitar a compreensão durante o uso.
+- **Carregamento de Resultados:** Otimizar o tempo de exibição dos cálculos para uma experiência mais fluida e ágil.
+- **Design de Navegação:** Ajustar o posicionamento de botões e elementos visuais para tornar as ações mais intuitivas e rápidas.
+
+Apesar das oportunidades de melhoria identificadas, a aplicação apresentou um desempenho sólido, sendo considerada intuitiva e eficaz na realização de suas funcionalidades principais. Os ajustes sugeridos podem contribuir para melhorar ainda mais a experiência do usuário.
+
