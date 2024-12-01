@@ -33,10 +33,8 @@ npx jest --verbose
 
 ### **Plano de Testes**
 
-| **Caso de Teste**       | **Procedimento**                                                                                           | **Requisitos Associados** | **Resultado Esperado**                        |
-|--------------------------|----------------------------------------------------------------------------------------------------------|----------------------------|-----------------------------------------------|
-| Caso de Teste                  | Procedimento                                                                                                                                                      | Resultado Esperado                                          |
-|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| **Caso de Teste**                  | **Procedimento**                                                                                                                                                      | **Resultado Esperado**                 | **Requisitos Associados**                         |
+|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|------------------------------|
 | **CT01 - Seleção de Gênero**    | 1) Acesse o formulário de perfil. <br> 2) Selecione uma das opções de gênero.                                                                                     | O gênero correto deve ser identificado e processado.        |
 | **CT02 - Cálculo de IMC**       | 1) Preencha o peso e altura. <br> 2) Clique no botão "Calcular".                                                                                                  | O IMC deve ser exibido corretamente, com classificação.     |
 | **CT03 - Cálculo de TMB**       | 1) Preencha o perfil com idade, gênero e peso. <br> 2) Clique no botão "Calcular TMB".                                                                             | O TMB deve ser calculado corretamente.                      |
