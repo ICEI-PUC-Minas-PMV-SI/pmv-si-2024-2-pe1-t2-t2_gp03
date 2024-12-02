@@ -88,10 +88,12 @@
 
    
     // Redireciona para a página de resultados.
-    window.location.href = '/results.html';
+    window.location.href = '/src/results.html';
 
     
     // Exibe os resultados de GET, TMB e IMC diretamente na página de resultados.
+    console.log(document.getElementById('get-result'))
+    console.log('get-result')
     document.getElementById('get-result').innerText = data.get + ' KCAL';
     document.getElementById('tmb-result').innerText = data.tmb + ' KCAL';
     document.getElementById('imc-result').innerText = data.imc;
