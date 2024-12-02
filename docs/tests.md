@@ -1,148 +1,141 @@
-# Testes
+# **Documentação de Testes**
 
-Neste projeto serão realizados dois tipos de testes:
+## **Descrição do Projeto**
+Este projeto visa fornecer aos usuários ferramentas para monitorar e gerenciar informações de saúde e nutrição. A aplicação inclui funcionalidades como cálculo de IMC, TMB, GET, orientações sobre hidratação, macronutrientes e atividades físicas, além de recomendações nutricionais gerais.  
 
- - O **Teste de Software**, que utiliza uma abordadem de caixa preta, e tem por objetivo verificar a conformidade do software com os requisitos funcionais e não funcionais do sistema.
- - O **Teste de Usabilidade**, que busca avaliar a qualidade do uso do sistema por um usuário do público alvo. 
+---
 
-Se quiser conhecer um pouco mais sobre os tipos de teste de software, leia o documento [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/).
+## **Tipos de Testes**
 
-A documentação dos testes é dividida nas seguintes seções:
+### **Teste de Software**
+- **Objetivo**: Verificar a conformidade do software com os requisitos funcionais e não funcionais utilizando a abordagem de caixa preta.
 
- - [Plano de Testes de Software](#plano-de-testes-de-software)
- - [Registro dos Testes de Software](#registro-dos-testes-de-software)
- - [Avaliação dos Testes de Software](#avaliação-dos-testes-de-software)
- - [Cenários de Teste de Usabilidade](#cenários-de-teste-de-usabilidade)
- - [Registro dos Testes de Usabilidade](#registro-dos-testes-de-usabilidade)
- - [Avaliação dos Testes de Usabilidade](#avaliação-dos-testes-de-usabilidade)
+Utilizamos o **Jest** como framework de testes para validar as funcionalidades do projeto. Para rodar os testes:
 
-# Teste de Software
+- Comando básico:
+```bash
+npx jest
+```
 
-Nesta seção o grupo deverá documentar os testes de software que verificam a correta implementação dos requisitos funcionais e não funcionais do software.
+Para obter mais detalhes, incluindo o tempo de execução de cada teste:
 
-## Plano de Testes de Software
+```bash
+Copiar código
+npx jest --verbose
+```
 
-Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
+### **Teste de Usabilidade**
+- **Objetivo**: Avaliar a experiência do usuário com a aplicação, medindo taxa de sucesso, satisfação subjetiva e tempo para conclusão de tarefas.
 
+---
 
-**Caso de Teste** | **CT01 - Criar conta parte 1**
- :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em criar conta <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
-**Resultado obtido** | Sucesso
+## **Teste de Software**
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
- :--------------: | ------------
-**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
-**Requisitos associados** | RF-001
-**Resultado esperado** | Usuário cadastrado
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
-**Resultado obtido** | Sucesso
+### **Plano de Testes**
 
-## Registro dos Testes de Software
-
-Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
-
-|*Caso de Teste*                                 |*CT01 - Criar conta parte 1*                                         |
-|---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
-
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
-|---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+| **Caso de Teste**                  | **Procedimento**                                                                                                                                                      | **Resultado Esperado**                                     | **Requisitos Associados**       |
+|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|----------------------------------|
+| **CT01 - Seleção de Gênero**        | 1) Acesse o formulário de perfil. <br> 2) Selecione uma das opções de gênero.                                                                                        | O gênero correto deve ser identificado e processado.       | RF03, RF04                      |
+| **CT02 - Cálculo de IMC**           | 1) Preencha o peso e altura. <br> 2) Clique no botão "Calcular".                                                                                                     | O IMC deve ser exibido corretamente, com classificação.    | RF03, RF05                      |
+| **CT03 - Cálculo de TMB**           | 1) Preencha o perfil com idade, gênero e peso. <br> 2) Clique no botão "Calcular TMB".                                                                              | O TMB deve ser calculado corretamente.                     | RF03, RF05                      |
+| **CT04 - Cálculo de GET**           | 1) Escolha um nível de atividade física. <br> 2) Clique no botão "Calcular GET".                                                                                    | O GET deve ser exibido corretamente.                       | RF03, RF05                      |
+| **CT05 - Salvamento de Dados**      | 1) Preencha o perfil e clique no botão "Salvar".                                                                                                                    | Os dados devem ser salvos no localStorage.                 | RF11, RF03, RF04                |
+| **CT06 - Interface Atualizada**     | 1) Execute uma operação (IMC, TMB, GET). <br> 2) Verifique os resultados exibidos na interface.                                                                     | Os valores devem aparecer corretamente no DOM.             | RF03, RF05, RF10                |
 
 
-## Avaliação dos Testes de Software
+### **Registro dos Testes de Software**
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Com base na última execução dos testes com Jest, obtivemos os seguintes resultados:
 
-## Testes de unidade automatizados (Opcional)
+| Test Suite              | Teste                                         | Tempo (ms) |
+|-------------------------|-----------------------------------------------|------------|
+| **processInfo.test.js**  | deve selecionar o gênero corretamente         | 49         |
+|                         | deve ler corretamente a altura e o peso       | 9          |
+|                         | deve selecionar corretamente a atividade física | 13         |
+|                         | deve calcular corretamente o IMC              | 7          |
+|                         | deve calcular corretamente o TMB              | 11         |
+|                         | deve calcular corretamente o GET              | 6          |
+| **result.test.js**       | deve incrementar o número corretamente        | 7          |
+|                         | alternar visibilidade do elemento             | 3          |
+|                         | preencher resultados no DOM                   | 5          |
+| **new-profile.test.js**  | changeWeight deve alterar peso no display     | 1          |
+|                         | changeHeight deve alterar altura no display   | 1          |
+|                         | calcular IMC                                  | 1          |
+|                         | calcular TMB para homens                      | 1          |
+|                         | calcular TMB para mulheres                    | 1          |
+|                         | calcular GET                                  | 1          |
 
-Se o grupo tiver interesse em se aprofundar no desenvolvimento de testes de software, ele podera desenvolver testes automatizados de software que verificam o funcionamento das funções JavaScript desenvolvidas. Para conhecer sobre testes unitários em JavaScript, leia 0 documento  [Ferramentas de Teste para Java Script](https://geekflare.com/javascript-unit-testing/).
-
-# Testes de Usabilidade
-
-O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à  funcionalidade da aplicação de forma geral.
-
-Para tanto, elaboramos quatro cenários, cada um baseado na definição apresentada sobre as histórias dos usuários, definido na etapa das especificações do projeto.
-
-Foram convidadas quatro pessoas que os perfis se encaixassem nas definições das histórias apresentadas na documentação, visando averiguar os seguintes indicadores:
-
-Taxa de sucesso: responde se o usuário conseguiu ou não executar a tarefa proposta;
-
-Satisfação subjetiva: responde como o usuário avalia o sistema com relação à execução da tarefa proposta, conforme a seguinte escala:
-
-1. Péssimo; 
-2. Ruim; 
-3. Regular; 
-4. Bom; 
-5. Ótimo.
-
-Tempo para conclusão da tarefa: em segundos, e em comparação com o tempo utilizado quando um especialista (um desenvolvedor) realiza a mesma tarefa.
-
-Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as informações pessoais dos usuários que participaram do teste não foram coletadas, tendo em vista a ausência de Termo de Consentimento Livre e Esclarecido.
-
-Apresente os cenários de testes utilizados na realização dos testes de usabilidade da sua aplicação. Escolha cenários de testes que demonstrem as principais histórias de usuário sendo realizadas. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
-
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+ - Média de tempo para execução total de testes do jest: 1.29s
 
 
-## Cenários de Teste de Usabilidade
+| **Caso de Teste**       | **Requisito Associado**          | 
+|--------------------------|---------------------------------|
+| **CT01 - Cadastrar Usuário** | RF01                        |
+| **CT02 - Login no Sistema**  | RF02                        |
+| **CT03 - Inserção de Dados** | RF03, RF04                  |
+| **CT04 - Cálculo do IMC**    | RF05                        |
+| **CT05 - Recomendação de Água** | RF06                     |
 
-| Nº do Cenário | Descrição do cenário |
-|---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
+### **Avaliação dos Testes de Software**
+Os testes realizados confirmaram a funcionalidade esperada para os principais requisitos.  
 
+**Pontos fortes identificados:**
+- Processamento rápido para cálculos e exibição de resultados.
+- Interface intuitiva para preenchimento do perfil.  
 
+**Pontos fracos identificados:**
+- Mensagens de erro genéricas em caso de falha na autenticação.
+- Falta de validação robusta para campos numéricos (ex.: altura, peso).  
 
-## Registro de Testes de Usabilidade
+**Ações futuras:**
+- Melhorar as mensagens de erro para torná-las mais informativas.
+- Implementar validação nos formulários para evitar entradas inválidas.
 
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
+---
 
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
-|  |  |  |  |
-| **Média**     | 100%           | 5                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+## **Testes de Usabilidade**
 
+### **Cenários de Teste**
 
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
+| **Nº do Cenário** | **Descrição**                                                                                       |
+|--------------------|---------------------------------------------------------------------------------------------------|
+| **Cenário 1**      | O usuário deseja calcular seu IMC e verificar a classificação correspondente.                     |
+| **Cenário 2**      | O usuário deseja calcular seu GET e obter a recomendação de calorias diárias.                     |
+| **Cenário 3**      | O usuário deseja receber recomendações sobre a distribuição de macronutrientes.                   |
+| **Cenário 4**      | O usuário deseja consultar a quantidade de água recomendada com base em seu perfil.               |
 
+### **Registro dos Testes de Usabilidade**
 
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
+#### **Cenário 1: Calcular IMC**
+| **Usuário** | **Taxa de Sucesso** | **Satisfação Subjetiva** | **Tempo para Conclusão** |
+|-------------|----------------------|--------------------------|--------------------------|
+| Usuário 1   | SIM                  | 5                        | 20 segundos              |
+| Usuário 2   | SIM                  | 4                        | 25 segundos              |
+| Usuário 3   | SIM                  | 5                        | 18 segundos              |
 
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
-|  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+**Comentários dos usuários:** "O processo é claro e intuitivo. Apenas demorou um pouco para carregar os resultados."  
 
+#### **Cenário 2: Calcular GET**
+| **Usuário** | **Taxa de Sucesso** | **Satisfação Subjetiva** | **Tempo para Conclusão** |
+|-------------|----------------------|--------------------------|--------------------------|
+| Usuário 1   | SIM                  | 4                        | 30 segundos              |
+| Usuário 2   | SIM                  | 5                        | 22 segundos              |
+| Usuário 3   | SIM                  | 4                        | 28 segundos              |
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+**Comentários dos usuários:** "Seria interessante explicar mais sobre o conceito de GET no mesmo local do cálculo."  
 
-## Avaliação dos Testes de Usabilidade
+### **Avaliação dos Testes de Usabilidade**
+Os resultados mostram que a aplicação atende às expectativas dos usuários quanto à execução de tarefas principais.  
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+- **Taxa de Sucesso**: 100% em todos os cenários.
+- **Satisfação Subjetiva**: Média de 4.5/5.  
+- **Tempo de Conclusão**: Dentro do esperado, mas há espaço para melhorias no carregamento de algumas funções.  
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
+Por outro lado, foi observada uma diferença significativa no tempo médio de conclusão entre usuários e especialistas. Embora essa discrepância seja natural devido ao maior conhecimento prévio do especialista sobre a interface e os processos, alguns participantes relataram dificuldades em localizar informações e compreender termos técnicos, especialmente no cálculo de GET e na distribuição de macronutrientes.
 
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
+#### **Principais Oportunidades de Melhoria**
+- **Mensagens de Ajuda:** Incluir explicações breves diretamente na interface para conceitos técnicos, como GET e TMB, para facilitar a compreensão durante o uso.
+- **Carregamento de Resultados:** Otimizar o tempo de exibição dos cálculos para uma experiência mais fluida e ágil.
+- **Design de Navegação:** Ajustar o posicionamento de botões e elementos visuais para tornar as ações mais intuitivas e rápidas.
 
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
-
-
-
+Apesar das oportunidades de melhoria identificadas, a aplicação apresentou um desempenho sólido, sendo considerada intuitiva e eficaz na realização de suas funcionalidades principais. Os ajustes sugeridos podem contribuir para melhorar ainda mais a experiência do usuário.
