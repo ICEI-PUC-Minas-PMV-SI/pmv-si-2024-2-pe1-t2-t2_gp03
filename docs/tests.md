@@ -20,7 +20,6 @@ npx jest
 Para obter mais detalhes, incluindo o tempo de execução de cada teste:
 
 ```bash
-Copiar código
 npx jest --verbose
 ```
 
