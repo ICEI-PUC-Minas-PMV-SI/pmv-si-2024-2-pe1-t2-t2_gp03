@@ -1,42 +1,39 @@
-# Programação de Funcionalidades
-
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
-
-Para cada requisito funcional, pode ser entregue um artefato desse tipo.
-
-O professor Rommel Carneiro apresenta alguns exemplos prontos para serem utilizados como referência:
-- Login do sistema: [https://repl.it/@rommelpuc/LoginApp](https://repl.it/@rommelpuc/LoginApp) 
-- Cadastro de Contatos: [https://repl.it/@rommelpuc/Cadastro-de-Contatos](https://repl.it/@rommelpuc/Cadastro-de-Contatos)
-
-
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
-
-## Exemplo
-
 ## Requisitos Atendidos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais que relacionam o escopo do projeto com os artefatos criados:
 
-### Requisitos Funcionais
+## Requisitos Não-Funcionais
+| ID  | Descrição  | Responsável | Artefato Criado |
+| -------- | -------- | -------- |
+| RNF01  | A interface do usuário deve ser intuitiva, sendo fácil de operar mesmo para pessoas sem familiaridade com tecnologia                                               | Fulano  | index.html
+| RNF02  | O sistema deve ser responsivo, garantindo que a interface do usuário se adapte de forma fluida e sem distorções a qualquer tamanho de tela                         | Fulano  | index.html
+| RNF03  | O sistema deve ter um design visual atraente, utilizando uma paleta de cores harmoniosa, tipografia legível e uma interface que promova uma experiência positiva   | Fulano  | index.html
+| RNF04  | O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Safari, Edge) e suas versões mais recentes                                           | Fulano  | index.html
+| RNF05  | O sistema deve ser capaz de processar e responder a todas as solicitações dos usuários em até 3 segundos                                                           | Fulano  | index.html
 
-|ID    | Descrição do Requisito | Responsável | Artefato Criado |
-|------|------------------------|------------|-----------------|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | João | index.html |
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês | Ana Paula | cadastro-noticia.html |
+## Requisitos Funcionais
+| ID  | Descrição  | Responsável | Artefato Criado |
+| -------- | -------- | -------- |
+| RF01  | Cadastrar usuário na plataforma                                                      | Fulano  | index.html
+| RF02  | Permitir que um usuário cadastrado se autentique                                     | Fulano  | index.html
+| RF03  | Exibir formulário para inserção dos dados do usuário                                 | Fulano  | index.html
+| RF04  | Possibilitar a edição dos campos do formulário                                       | Fulano  | index.html
+| RF05  | Calcular IMC, TMB e GET a partir dos dados preenchidos                               | Fulano  | index.html
+| RF06  | Orientar quantidade ideal de água que o usuário deve consumir diariamente            | Fulano  | index.html
+| RF07  | Recomendar quantidade e tipo de exercícios baseado nos dados inseridos               | Fulano  | index.html
+| RF08  | Recomendar distribuição de macronutrientes baseado nos dados inseridos               | Fulano  | index.html
+| RF10  | Exibir modais de ajuda explicando termos técnicos como FAT, IMC, TMB e GET           | Fulano  | index.html
+| RF11  | Ter persistência dos dados informados e gerados, associando ao usuário autenticado   | Fulano  | index.html
 
 ## Descrição das estruturas:
 
-## Notícia
-|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
-|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
-
+## Perfil de Usuário
+|  **Nome**      | **Tipo**          | **Descrição**                              | **Exemplo**                  |
+|:--------------:|-------------------|--------------------------------------------|------------------------------|
+| Id             | Texto             | Identificador único do usuário             | X5vsnZsKaJgKSP6b7I84jr45vA03 |
+| Activity       | Texto             | Nível de atividade física do usuário       | Ativo                        |
+| Gender         | Texto             | Gênero do usuário                          | Masculino                    |
+| Height         | Texto             | Altura do usuário                          | 185cm                        |
+| Weight         | Texto             | Peso do usuário                            | 75kg                         |
+| IMC            | Texto             | Indice de Massa Corporal do usuário        | 21.91                        |
+| GET            | Texto             | Taxa Basal Metabólica do usuário           | 1924.32                      |
