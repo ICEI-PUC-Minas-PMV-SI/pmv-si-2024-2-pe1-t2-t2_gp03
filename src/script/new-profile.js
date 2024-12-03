@@ -1,78 +1,71 @@
-function changeWeight(quantityToChange){
-    let weightDisplayName = 'weight-display'
-    let weightDisplay = document.getElementById(weightDisplayName)
-    let currentWeight = parseInt(weightDisplay.textContent, 10);
-    let newWeight = currentWeight+quantityToChange
-    weightDisplay.textContent = `${newWeight}kg`;
+// Atualiza o peso exibido no display com base na quantidade fornecida
+function changeWeight(quantityToChange) {
+    let weightDisplayName = 'weight-display'; // ID do elemento que mostra o peso
+    let weightDisplay = document.getElementById(weightDisplayName); // Referência ao elemento HTML
+    let currentWeight = parseInt(weightDisplay.textContent, 10); // Pega o peso atual como número
+    let newWeight = currentWeight + quantityToChange; // Calcula o novo peso
+    weightDisplay.textContent = `${newWeight}kg`; // Atualiza o conteúdo do display
 }
 
-function changeHeight(quantityToChange){
-    let heightDisplayName = 'height-display'
-    let heightDisplay = document.getElementById(heightDisplayName)
-    let currentHeight = parseInt(heightDisplay.textContent, 10);
-    let newHeight = currentHeight+quantityToChange
-    heightDisplay.textContent = `${newHeight}cm`;
+// Atualiza a altura exibida no display com base na quantidade fornecida
+function changeHeight(quantityToChange) {
+    let heightDisplayName = 'height-display'; // ID do elemento que mostra a altura
+    let heightDisplay = document.getElementById(heightDisplayName); // Referência ao elemento HTML
+    let currentHeight = parseInt(heightDisplay.textContent, 10); // Pega a altura atual como número
+    let newHeight = currentHeight + quantityToChange; // Calcula a nova altura
+    heightDisplay.textContent = `${newHeight}cm`; // Atualiza o conteúdo do display
 }
 
+// Destaca o ícone de seleção quando o mouse passa sobre a opção
 function hoverCard(card) {
-    const img = card.querySelector('img');
-    img.src = './img/icons-check-highlighted.svg';
+    const img = card.querySelector('img'); // Seleciona a imagem dentro do cartão
+    img.src = './img/icons-check-highlighted.svg'; // Substitui a imagem pelo ícone destacado
 }
 
+// Retorna o ícone ao estado padrão quando o mouse sai da opção
 function unhoverCard(card) {
-    const img = card.querySelector('img');
+    const img = card.querySelector('img'); // Seleciona a imagem dentro do cartão
     if (!card.classList.contains('physical-activity-card-selected')) {
-        img.src = './img/icons-check.svg';
+        img.src = './img/icons-check.svg'; // Retorna a imagem ao ícone padrão
     }
 }
 
+// Seleciona uma opção de nível de atividade física
 function selectCard(card) {
-    // Remove a classe de seleção e troca a imagem de todos os cards
     const cards = document.querySelectorAll('.physical-activity-card, .physical-activity-card-selected');
     
     cards.forEach(c => {
         const img = c.querySelector('img');
         if (c === card) {
-            // Se for o card clicado, adicione a classe "selected" e troque a imagem
-            c.classList.add('physical-activity-card-selected');
-            img.src = './img/icons-check-highlighted.svg'; // imagem selecionada
+            c.classList.add('physical-activity-card-selected', 'selected'); // Define a classe de selecionado
+            img.src = './img/icons-check-highlighted.svg'; // Atualiza o ícone para o estado selecionado
         } else {
-            // Para os outros cards, remova a classe "selected" e restaure a imagem
-            c.classList.remove('physical-activity-card-selected');
-            img.src = './img/icons-check.svg'; // imagem padrão
+            c.classList.remove('physical-activity-card-selected', 'selected'); // Remove a classe de selecionado de outros cartões
+            img.src = './img/icons-check.svg'; // Atualiza o ícone para o estado padrão
         }
     });
 }
 
+// Seleciona o gênero e atualiza a interface visualmente
 let selectedCard = null;
-
 function selectGender(currentCard) {
-    const img = currentCard.querySelector('.gender-card');
-
-    // Se já houver um cartão selecionado e não for o atual, desmarque-o
+    const img = currentCard.querySelector('.gender-card'); // Referência ao ícone do cartão
+    
     if (selectedCard && selectedCard !== currentCard) {
         const previousImg = selectedCard.querySelector('.gender-card');
-        previousImg.src = previousImg.src.replace('-selected', ''); // Remove '-selected' da imagem
-        selectedCard.style.backgroundColor = ''; // Remove a cor de fundo do cartão anterior
+        previousImg.src = previousImg.src.replace('-selected', ''); // Remove o estado selecionado do ícone anterior
+        selectedCard.style.backgroundColor = ''; // Reseta a cor do cartão anterior
     }
 
-    // Altera a imagem do cartão atual para selecionado
-    img.src = img.getAttribute('data-selected-src');
-    
-    // Altera a cor de fundo com base no gênero selecionado
-    if (img.src.includes('female')) {
-        currentCard.style.backgroundColor = '#EF476F'; //pink
-    } else {
-        currentCard.style.backgroundColor = '#26547C' //blue;
-    }
+    img.src = img.getAttribute('data-selected-src'); // Atualiza o ícone para o estado selecionado
 
-    // Atualiza o cartão selecionado
-    selectedCard = currentCard;
+    // Define a cor de fundo com base no gênero selecionado
+    currentCard.style.backgroundColor = img.src.includes('female') ? '#EF476F' : '#26547C'; //pink | blue
+
+    selectedCard = currentCard; // Salva o cartão selecionado
 }
 
-
-
-// Função para mostrar elementos da visualização correta com base no índice
+// Atualiza a exibição das páginas com base no dispositivo e no índice salvo
 function showElements() {
     const mobileElements = document.querySelectorAll('.mobile-1, .mobile-2, .mobile-3');
     const tabletElements = document.querySelectorAll('.tablet-1, .tablet-2');
@@ -82,79 +75,100 @@ function showElements() {
     const isTablet = window.innerWidth >= 375 && window.innerWidth <= 768;
     const isDesktop = window.innerWidth > 768;
 
-    // Recupera o índice do localStorage
     const mobileIndex = parseInt(localStorage.getItem('mobile-page-index')) || 0;
     const tabletIndex = parseInt(localStorage.getItem('tablet-page-index')) || 0;
 
-    // Se for mobile, esconder elementos de tablet
+    // Configuração para dispositivos móveis
     if (!isTablet) {
-        mobileElements.forEach((element) => {
+        mobileElements.forEach(element => {
             element.style.display = element.classList.contains(`mobile-${mobileIndex + 1}`) ? 'flex' : 'none';
         });
 
-        // Lógica dos botões para mobile
-        if (mobileIndex === 2) { // mobile-3
-            nextButton.style.display = 'none'; // Ocultar "Avançar"
-            generateButton.style.display = 'flex'; // Mostrar "Gerar Resultados"
-        } else {
-            nextButton.style.display = 'flex'; // Mostrar "Avançar" nos outros casos
-            generateButton.style.display = 'none'; // Ocultar "Gerar Resultados"
-        }
+        nextButton.style.display = mobileIndex === 2 ? 'none' : 'flex';
+        generateButton.style.display = mobileIndex === 2 ? 'flex' : 'none';
     }
 
-    // Se for tablet, mostrar elementos de tablet
+    // Configuração para tablets
     if (isTablet) {
-        tabletElements.forEach((element) => {
+        tabletElements.forEach(element => {
             element.style.display = element.classList.contains(`tablet-${tabletIndex + 1}`) ? 'flex' : 'none';
         });
 
-        // Lógica dos botões para tablet
-        if (tabletIndex === 1) { // tablet-2
-            nextButton.style.display = 'none'; // Ocultar "Avançar"
-            generateButton.style.display = 'flex'; // Mostrar "Gerar Resultados"
-        } else {
-            nextButton.style.display = 'flex'; // Mostrar "Avançar" nos outros casos
-            generateButton.style.display = 'none'; // Ocultar "Gerar Resultados"
-        }
+        nextButton.style.display = tabletIndex === 1 ? 'none' : 'flex';
+        generateButton.style.display = tabletIndex === 1 ? 'flex' : 'none';
     }
 
-    // Se for desktop, mostrar todos os elementos
+    // Configuração para desktops
     if (isDesktop) {
-        mobileElements.forEach((element) => {
-            element.style.display = 'flex'; // Exibir todos os elementos
-        });
-        tabletElements.forEach((element) => {
-            element.style.display = 'flex'; // Exibir todos os elementos
-        });
-        nextButton.style.display = 'none'; // Ocultar "Avançar" no desktop
-        generateButton.style.display = 'flex'; // Mostrar "Gerar Resultados"
+        mobileElements.forEach(element => element.style.display = 'flex');
+        tabletElements.forEach(element => element.style.display = 'flex');
+        nextButton.style.display = 'none';
+        generateButton.style.display = 'flex';
     }
 }
 
-// Função para avançar para a próxima página
+// Avança para a próxima página de informações
 function nextPage() {
     const isTablet = window.innerWidth >= 375 && window.innerWidth <= 768;
 
-    if (!isTablet) {
-        let currentIndex = parseInt(localStorage.getItem('mobile-page-index')) || 0;
-        currentIndex = (currentIndex + 1) % 3; // Incrementar e resetar após a última visualização
-        localStorage.setItem('mobile-page-index', currentIndex);
-    } else {
-        let currentIndex = parseInt(localStorage.getItem('tablet-page-index')) || 0;
-        currentIndex = (currentIndex + 1) % 2; // Incrementar e resetar após a última visualização (tablet)
-        localStorage.setItem('tablet-page-index', currentIndex);
-    }
-    
-    showElements(); // Atualiza a visualização
+    let currentIndex = parseInt(localStorage.getItem(isTablet ? 'tablet-page-index' : 'mobile-page-index')) || 0;
+    currentIndex = (currentIndex + 1) % (isTablet ? 2 : 3); // Incrementa e reseta o índice
+    localStorage.setItem(isTablet ? 'tablet-page-index' : 'mobile-page-index', currentIndex);
+
+    showElements(); // Atualiza a exibição
 }
 
-// Inicializar a visualização
-function initialize() {
-    showElements(); // Mostra elementos baseados nos índices salvos
+// Funções para cálculo de IMC, TMB e GET (Gasto Energético Total)
+function calculateIMC(weight, height) {
+    return weight / (height * height); // Altura em metros
 }
 
-// Atualizar a visualização ao redimensionar a tela
-window.addEventListener('resize', initialize);
+function calculateTMB(weight, height, age, gender) {
+    return gender === 'male'
+        ? 66.5 + (13.75 * weight) + (5.003 * height) - (6.75 * age)
+        : 655.1 + (9.563 * weight) + (1.850 * height) - (4.676 * age);
+}
 
-// Executar a inicialização ao carregar a página
-document.addEventListener('DOMContentLoaded', initialize);
+function calculateGET(tmb, activityLevel) {
+    const multipliers = {
+        sedentary: 1.2,
+        light: 1.375,
+        moderate: 1.55,
+        intense: 1.725,
+        veryIntense: 1.9
+    };
+    return tmb * (multipliers[activityLevel] || 1.2); // Default é sedentário
+}
+
+// Calcula o perfil com base nos dados fornecidos
+function calculateProfile() {
+    const weight = parseInt(document.getElementById('weight-display').textContent, 10);
+    const height = parseInt(document.getElementById('height-display').textContent, 10);
+    const age = parseInt(document.getElementById('age-display').textContent, 10);
+    const gender = document.querySelector('input[name="gender"]:checked').value;
+    const activityLevel = document.querySelector('input[name="activity"]:checked').value;
+
+    const imc = calculateIMC(weight, height / 100);
+    const tmb = calculateTMB(weight, height, age, gender);
+    const get = calculateGET(tmb, activityLevel);
+
+    localStorage.setItem('imc', imc.toFixed(2));
+    localStorage.setItem('tmb', tmb.toFixed(2));
+    localStorage.setItem('get', get.toFixed(2));
+
+    window.location = './results.html';
+}
+
+// Inicialização da interface
+document.addEventListener('DOMContentLoaded', showElements);
+window.addEventListener('resize', showElements);
+document.querySelector('.generate-btn')?.addEventListener('click', calculateProfile);
+
+module.exports = {
+    changeWeight,
+    changeHeight,
+    calculateIMC,
+    calculateTMB,
+    calculateGET,
+    calculateProfile
+  };

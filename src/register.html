@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/globals.css" />
-    <link rel="stylesheet" href="./style/new-register.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./style/register.css" />
+    <title>Macrofit</title>
 </head>
 <body>
     <div class="main">
@@ -17,26 +17,38 @@
                         Seja bem vindo ao MacroFit, informe seu email e crie uma senha para começar uma vida mais saudável.
                     </p>
                 </div>
+                <form id="registerForm" action="">
                 <div class="register-form-inputs">
                     <div class="input-container">
                         <img class="icons" src="img/icons-5.svg" />
-                        <input class="input inter-semibold" placeholder="Ex. username@gmail.com" type="text" />
+                        <input id= "emailRegister" class="input inter-semibold" placeholder="Ex. username@gmail.com" type="text" />
                     </div>
                     <div class="input-container">
                         <img class="icons" src="img/password.svg" />
-                        <input class="input inter-semibold" placeholder="Ex. secretpass123@" type="password" />
+                        <input id="passwordRegister" class="input inter-semibold" placeholder="Ex. secretpass123@" type="password" />
                     </div>
                     <div class="input-container">
                         <img class="icons" src="img/password.svg" />
-                        <input class="input inter-semibold" placeholder="Ex. secretpass123@" type="password" />
+                        <input  id="confirmPasswordRegister" class="input inter-semibold" placeholder="Ex. secretpass123@" type="password" />
                     </div>
                 </div>
-                <button class="register-button" >Cadastrar</button>
+                <button  id="submitRegisterForm" class="register-button">Cadastrar</button>
+            </form>
+                <!--<a href="./new-login.html">Já possui uma conta? Clique aqui!</a>-->
             </div>
+
         </div>
         <div class="hero-container">
             <img class="logo" src="./img/group.png" alt="">
         </div>
     </div>
+    <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-database.js"></script>
+
+    <script src="./script/firebase.js"></script> <!-- Inicializa o Firebase -->
+    <script src="./script/registerAuth.js"></script> <!-- Usa o Firebase -->
+    
+    
 </body>
 </html>
