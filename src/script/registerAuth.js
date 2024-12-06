@@ -3,7 +3,11 @@ var registerForm = document.getElementById('registerForm');
 registerForm.onsubmit = function (event) {
     
     try{
-        if (registerForm.confirmPasswordRegister.value != registerForm.passwordRegister.value) throw new Error("As senhas não coincidem!")
+        if (registerForm.confirmPasswordRegister.value != registerForm.passwordRegister.value) {
+            const errorMessage = "As senhas não coincidem!";
+            alert(errorMessage)
+            throw new Error(errorMessage)
+        }
 
             event.preventDefault();
 
@@ -13,7 +17,9 @@ registerForm.onsubmit = function (event) {
                 window.location.href = "login.html";
             })
             .catch(function (error) {
-                console.log('Falha no cadastro');
+                const errorMessage = "Falha no cadastro";
+                alert(errorMessage)
+                console.log(errorMessage);
                 console.log(error);
             });
     } catch (error){

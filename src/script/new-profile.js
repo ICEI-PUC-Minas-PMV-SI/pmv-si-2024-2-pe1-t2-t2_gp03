@@ -60,7 +60,7 @@ function selectGender(currentCard) {
     img.src = img.getAttribute('data-selected-src'); // Atualiza o ícone para o estado selecionado
 
     // Define a cor de fundo com base no gênero selecionado
-    currentCard.style.backgroundColor = img.src.includes('female') ? '#EF476F' : '#26547C';
+    currentCard.style.backgroundColor = img.src.includes('female') ? '#EF476F' : '#26547C'; //pink | blue
 
     selectedCard = currentCard; // Salva o cartão selecionado
 }
