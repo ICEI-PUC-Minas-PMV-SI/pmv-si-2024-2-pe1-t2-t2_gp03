@@ -27,7 +27,8 @@ function applyTheme(theme) {
     document.body.classList.remove('light', 'dark'); 
     // Adiciona o novo tema
     document.body.classList.add(theme);
-    theme === 'dark' ? showDarkThemedElements() : showLightThemedElements()
+    applyThemeOnOutOfPatternElements(theme === 'dark');
+    //  ? showDarkThemedElements() : showLightThemedElements()
 }
 
 // Define e aplica o tema
@@ -58,12 +59,36 @@ function enableSystemTheme() {
 }
 
 //Out of pattern elements
-const darkThemeProfileIcon = './img/icons-profile-highlighted.svg'
-const lightThemeProfileIcon = './img/icons-profile-dark.svg'
-function showDarkThemedElements(){
-
+function getOutOfPatternElements(){
+    const elements = [
+        {
+            description: 'profile icon on inputs',
+            classId: 'profile-icon',
+            dark: './img/icons-profile-highlighted.svg',
+            light: './img/icons-profile-dark.svg'
+        },
+        {
+            description: 'full logo svg/png',
+            classId: 'full-logo',
+            dark: './img/logo-dark.svg',
+            light: './img/macrofit-high-resolution-logo-1.png'
+        },
+        {
+            description: 'mini logo png',
+            classId: 'mini-logo',
+            dark: './img/mini-logo-dark.png',
+            light: './img/logo-mini.png'
+        },
+    ]
+    return elements
 }
 
-function showLightThemedElements(){
-
+function applyThemeOnOutOfPatternElements(isDark){
+    const elements = getOutOfPatternElements()
+     for(let e of elements){
+        for (let domE of document.getElementsByClassName(e.classId)){
+            domE.src = isDark ? e.dark : e.light
+            //console.log(domE)
+        } 
+    }
 }
