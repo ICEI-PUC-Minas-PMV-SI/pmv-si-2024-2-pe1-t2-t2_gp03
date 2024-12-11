@@ -19,7 +19,7 @@ function changeHeight(quantityToChange) {
 // Destaca o ícone de seleção quando o mouse passa sobre a opção
 function hoverCard(card) {
     const img = card.querySelector('img'); // Seleciona a imagem dentro do cartão
-    img.src = './img/icons-check-highlighted.svg'; // Substitui a imagem pelo ícone destacado
+    img.src = isThemeDark() ? './img/dark-check.svg' : './img/icons-check-highlighted.svg'; // Substitui a imagem pelo ícone destacado
 }
 
 // Retorna o ícone ao estado padrão quando o mouse sai da opção
@@ -30,17 +30,26 @@ function unhoverCard(card) {
     }
 }
 
+function isThemeDark() {
+    return document.body.classList.contains('dark'); 
+}
+
 // Seleciona uma opção de nível de atividade física
 function selectCard(card) {
     const cards = document.querySelectorAll('.physical-activity-card, .physical-activity-card-selected');
+    const isDark = isThemeDark() 
     
     cards.forEach(c => {
         const img = c.querySelector('img');
+        const classes = [
+            'physical-activity-card-selected',
+            'selected'
+        ]
         if (c === card) {
-            c.classList.add('physical-activity-card-selected', 'selected'); // Define a classe de selecionado
-            img.src = './img/icons-check-highlighted.svg'; // Atualiza o ícone para o estado selecionado
+            c.classList.add(...classes); // Define a classe de selecionado
+            img.src = isDark ? './img/dark-check.svg' : './img/icons-check-highlighted.svg'; // Atualiza o ícone para o estado selecionado
         } else {
-            c.classList.remove('physical-activity-card-selected', 'selected'); // Remove a classe de selecionado de outros cartões
+            c.classList.remove(...classes); // Remove a classe de selecionado de outros cartões
             img.src = './img/icons-check.svg'; // Atualiza o ícone para o estado padrão
         }
     });

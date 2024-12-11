@@ -63,21 +63,39 @@ function getOutOfPatternElements(){
     const elements = [
         {
             description: 'profile icon on inputs',
-            classId: 'profile-icon',
+            classIds: ['profile-icon'],
             dark: './img/icons-profile-highlighted.svg',
             light: './img/icons-profile-dark.svg'
         },
         {
             description: 'full logo svg/png',
-            classId: 'full-logo',
+            classIds: ['full-logo'],
             dark: './img/logo-dark.svg',
             light: './img/macrofit-high-resolution-logo-1.png'
         },
+        // {
+        //     description: 'checked icon',
+        //     classIds: ['card-img'],
+        //     dark: './img/dark-check.svg',
+        //     light: './img/icons-check.svg'
+        // },
+        {
+            description: 'logo login/register',
+            classIds: ['logo_image', 'logo'],
+            dark: './img/login-main-logo-dark.png',
+            light: './img/group.png'
+        },
         {
             description: 'mini logo png',
-            classId: 'mini-logo',
+            classIds: ['mini-logo'],
             dark: './img/mini-logo-dark.png',
             light: './img/logo-mini.png'
+        },
+        {
+            description: 'key/password icon',
+            classIds: ['key-icon'],
+            dark: 'img/password-highlighted.svg',
+            light: 'img/password.svg'
         },
     ]
     return elements
@@ -86,9 +104,11 @@ function getOutOfPatternElements(){
 function applyThemeOnOutOfPatternElements(isDark){
     const elements = getOutOfPatternElements()
      for(let e of elements){
-        for (let domE of document.getElementsByClassName(e.classId)){
-            domE.src = isDark ? e.dark : e.light
-            //console.log(domE)
-        } 
+        for(let c of e.classIds) {
+            for (let domE of document.getElementsByClassName(c)){
+                domE.src = isDark ? e.dark : e.light
+                console.log(domE)
+            } 
+        }
     }
 }
