@@ -2,6 +2,8 @@
     min-width: 100vw;
     min-height: 100vh;
     display: flex;
+    color: var(--text-color);
+    background-color: var(--background-color);
 }
 
 .register-form-container {
@@ -21,7 +23,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+}
+
+.form-elements-container {
+    width: 100%;
+    height: 100%;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .register-form-header {
@@ -69,8 +79,13 @@
     size: 16px;
     width: 90%;
     color: var(--gray);
+    background-color: var(--background-color);
     font-size: 16px;
     outline: none;
+}
+
+.input-container:focus-within {
+    outline: 2px solid var(--primary);
 }
 
 .register-button {
